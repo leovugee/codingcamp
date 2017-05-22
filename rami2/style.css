@@ -1,0 +1,48 @@
+.c1 {
+	border: 20px solid red;
+	border-radius:  40%;
+	width: 300px;
+	margin: 300px;
+	padding: 100px;
+	font-size: 50px;
+	box-sizing: border-box;
+	position: absolute;
+}
+
+.c2 {
+    width: 300px;
+    height: 100px;    
+    padding: 50px;
+    border: 10px solid red;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    float: right;
+    margin-left: 40px;
+}
+
+.c3 {
+	width: 300px;
+    height: 100px;
+    border: 20px solid blue;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    float: right;
+}
+
+div.container {
+    width: 400px;
+    border: 9px solid;
+    border-radius: 30px;
+}
+
+div.box {
+    box-sizing: border-box;
+    border-radius: 70px;
+    width: 50%;
+    border: 5px solid red;
+    float: left;
+    text-align: center;
+}
+
+
+
