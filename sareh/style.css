@@ -1,0 +1,23 @@
+#first p{
+	display:inline;
+	background-color: red;
+	font-size:100px;
+	
+	}
+#second p{
+	display: inline-block;
+	background-color: green;
+	font-size: 150px;
+	transition-property:transform;
+	transition-duration: 5s;
+	font-style: italic;
+}
+#third p{
+	display: none;
+	background-color: gray
+	font-size:200px;
+}
+#second p:hover{
+	transform:rotate(-20deg);
+	background-color:red;
+}
