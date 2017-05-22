@@ -1,3 +1,9 @@
+* {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;	
+	box-sizing: content-box;
+}
+
 div{
 	width: 200px;
 	height: 200px;
@@ -5,15 +11,17 @@ div{
 	border: 8px solid black;
 	margin: 30px auto;
 	background-color: red;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;	
-	box-sizing: content-box;
+	
 }
 
 .box-border{
 	box-sizing: border-box;
+	padding: 20px;
+	
 }
 
 .box-padding{
 	box-sizing: border-box;
+	margin: 40px;
+	padding: 30px;
 }
