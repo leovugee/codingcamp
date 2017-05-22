@@ -1,0 +1,38 @@
+.c1 {
+	border: 10px solid red;
+	width: 300px;
+	margin: 100px;
+	padding: 200px;
+	font-size: 100px;
+	text-align: center;
+	box-sizing: 400px;
+}
+
+.c2 {
+    width: 300px;
+    height: 100px;    
+    padding: 50px;
+    border: 10px solid red;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.c3 {
+	width: 300px;
+    height: 100px;
+    border: 20px solid blue;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+div.container {
+    width: 30em;
+    border: 1em solid;
+}
+
+div.box {
+    box-sizing: border-box;
+    width: 50%;
+    border: 1em solid red;
+    float: left;
+}
