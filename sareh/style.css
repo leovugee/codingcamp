@@ -1,0 +1,16 @@
+#first p{
+	display:inline;
+	background-color: red;
+	font-size:100px;
+
+}
+#second p{
+	display: inline-block;
+	background-color: green;
+	font-size: 150px;
+}
+#third{
+	display: none;
+	background-color: gray
+	font-size:200px;
+}
