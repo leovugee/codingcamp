@@ -1,0 +1,22 @@
+.test1 p {
+	display: inline;
+	background-color: green;
+	font-size: 30px;
+
+
+}
+
+.test2 p {
+	display: inline;
+	background-color: blue;
+	font-size: 30px;
+
+
+}
+
+.test3 p {
+	display: inline;
+	background-color: red;
+	font-size: 30px;
+
+}

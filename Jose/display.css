@@ -1,0 +1,19 @@
+
+#first p{
+	display: block;
+	background-color: red;
+}
+#second p{
+	display: inline-block;
+	background-color: green;
+	width: 200px;
+	height: 200px;
+}
+#third p{
+	display: inline;
+	background-color: blue;
+}
+#fourth p{
+	display: none;
+	background-color: black;
+}

@@ -1,0 +1,15 @@
+.dis1,.dis2,.dis3{
+	width:700px;
+	height:300px;
+}
+
+
+.dis1 p{
+	display:none;
+}
+.dis2 p{
+	display:inline;
+}
+.dis3 p{
+	display:inline-block;
+}
