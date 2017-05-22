@@ -1,0 +1,19 @@
+div{
+	width: 200px;
+	height: 200px;
+	padding: 56px;
+	border: 8px solid black;
+	margin: 30px;
+	background-color: red;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;	
+	box-sizing: content-box;
+}
+
+.box-border{
+	box-sizing: border-box;
+}
+
+.box-padding{
+	box-sizing: padding-box;
+}
