@@ -1,11 +1,12 @@
 .c1 {
-	border: 10px solid red;
+	border: 20px solid red;
+	border-radius:  40%;
 	width: 300px;
-	margin: 100px;
-	padding: 200px;
-	font-size: 100px;
-	text-align: center;
-	box-sizing: 400px;
+	margin: 300px;
+	padding: 100px;
+	font-size: 50px;
+	box-sizing: border-box;
+	position: absolute;
 }
 
 .c2 {
@@ -15,6 +16,8 @@
     border: 10px solid red;
     box-sizing: border-box;
     margin-bottom: 30px;
+    float: right;
+    margin-left: 40px;
 }
 
 .c3 {
@@ -23,16 +26,23 @@
     border: 20px solid blue;
     box-sizing: border-box;
     margin-bottom: 30px;
+    float: right;
 }
 
 div.container {
-    width: 30em;
-    border: 1em solid;
+    width: 400px;
+    border: 9px solid;
+    border-radius: 30px;
 }
 
 div.box {
     box-sizing: border-box;
+    border-radius: 70px;
     width: 50%;
-    border: 1em solid red;
+    border: 5px solid red;
     float: left;
+    text-align: center;
 }
+
+
+
