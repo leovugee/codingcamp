@@ -1,9 +1,9 @@
 div{
 	width: 200px;
 	height: 200px;
-	padding: 56px;
+	padding: 50px;
 	border: 8px solid black;
-	margin: 30px;
+	margin: 30px auto;
 	background-color: red;
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;	
@@ -15,5 +15,5 @@ div{
 }
 
 .box-padding{
-	box-sizing: padding-box;
+	box-sizing: border-box;
 }
