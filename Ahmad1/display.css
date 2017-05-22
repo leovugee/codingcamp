@@ -1,9 +1,14 @@
-.d-block {
+.d-block p {
 	display: block;
 }
-.d-inline{
+.d-inline p{
 	display: inline;
 }
-.d-inline-block{
+.d-inline-block p{
 	display: inline-block;
+	width: 5%;
+	height: 2%;
+}
+.d-none p{
+	display: none;
 }
