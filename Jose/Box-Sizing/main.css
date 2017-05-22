@@ -19,9 +19,18 @@ div{
 	padding: 20px;
 	
 }
+.box-border:hover{
+	border-radius: 30%;
+	transition-duration: 2s;
+}
 
 .box-padding{
 	box-sizing: border-box;
 	margin: 40px;
 	padding: 30px;
+}
+.box-padding:hover{
+	border-radius: 25px 75px;
+	transition-duration: 2s;
+	
 }
