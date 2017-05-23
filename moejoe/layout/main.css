@@ -1,0 +1,43 @@
+#container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.header {
+	border-radius: 10px;
+	background-color: #0B610B;
+}
+
+.section {
+	width: 60%;
+	border-radius: 10px;
+	background-color: #04B404;
+	float: left;
+	margin: 20px 0;
+
+}
+
+.aside {
+	width: 30%;
+	border-radius: 10px;
+	background-color: #00FF00;
+	float: right;
+	margin: 20px 0;
+}
+
+.footer {
+	border-radius: 10px;
+	background-color: #58FA58;
+	margin-top: 220px;
+
+
+
+}
+
+p {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
