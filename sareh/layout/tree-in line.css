@@ -1,0 +1,22 @@
+body{
+	background-color: yellow;
+}
+
+
+
+header,section,footer{
+	background-color: green;
+	text-align:center;
+	border-radius: 15px;
+	height: 100px;
+}
+section{
+	width: 27%;
+	display: inline-block;
+	margin: 2%;
+	font-size: 40px;
+}
+footer{
+	clear: both;
+	font-size: 40px;
+}
