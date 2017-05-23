@@ -15,12 +15,27 @@
 
 .change{
 	background-color: green;
-	height: 50px;
 	border-radius: 10px;
+	margin: 20px;
 }
 
 p{
+	height: 50px;
 	text-align: center;
 	color: white;
 	line-height: 50px; 
+}
+
+#section{
+	width: 40%;
+	float: left;
+	
+}
+#aside{
+	width: 40%;
+	float: right;
+	
+}
+#footer{
+	clear: both;
 }
