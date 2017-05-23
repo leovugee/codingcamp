@@ -1,3 +1,9 @@
+body{
+	background-color: brown;
+}
+
+
+
 header,section,aside,footer{
 	background-color: green;
 	padding: 50px;
@@ -18,4 +24,8 @@ header,section,aside,footer{
 }
 .ss{
 	clear: both;
+}
+ ul{
+	text-align: left;
+	color: white;
 }
