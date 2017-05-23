@@ -27,15 +27,17 @@ p{
 }
 
 #section{
-	width: 40%;
+	width: 60%;
 	float: left;
 	
 }
 #aside{
-	width: 40%;
+	width: 30%;
 	float: right;
 	
 }
 #footer{
 	clear: both;
 }
+
+
