@@ -1,0 +1,25 @@
+#div6  {
+	display: none;
+    background-color: #2f3f4f;
+}
+
+
+#div7 p{
+	display: block;
+	background-color: #2f3f4f;
+	color: #ffffff;
+}
+
+
+#div8 p{
+	display: inline-block;
+    background-color: #2f3f4f;
+    color: #ffffff;
+}
+
+
+#div9 p {
+	display: inline;
+	background-color: #2f3f4f;
+	color: #ffffff;
+}
