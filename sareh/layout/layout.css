@@ -1,0 +1,28 @@
+header{
+	background-color: green;
+
+	text-align: center;
+
+
+
+}
+
+section{
+	background-color:green ;
+	clear:both;
+	text-align: center;
+	margin: 220px;
+}
+aside{
+	background-color: green;
+	
+	text-align: center;
+	float: right;
+	width: 30%;
+}
+footer{
+	background-color: green;
+	text-align: center;
+	margin: 100px;
+	
+}
