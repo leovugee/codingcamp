@@ -6,8 +6,8 @@ body {
 
 
 div {
-	color: #e9eae7;
-	text-align: center;
+    color: #e9eae7;
+    text-align: center;
     line-height: 150px;
     margin: auto;
 }
@@ -18,9 +18,11 @@ div {
     height: 150px;
     width: 800px;
     border-radius: 7px;
-    margin-bottom: 2px;
 }
- 
+
+
+
+
 main {
     background-color: #ffffff;
     width: 800px;
@@ -46,6 +48,7 @@ main {
 }
 
 
+
 #footer {
     background-color: #6aab2e;
     height: 150px;
@@ -54,29 +57,3 @@ main {
     clear: both;
 }
 
-
-#div6  {
-	display: none;
-    background-color: #2f3f4f;
-}
-
-
-#div7 p{
-	display: block;
-	background-color: #2f3f4f;
-	color: #ffffff;
-}
-
-
-#div8 p{
-	display: inline-block;
-    background-color: #2f3f4f;
-    color: #ffffff;
-}
-
-
-#div9 p {
-	display: inline;
-	background-color: #2f3f4f;
-	color: #ffffff;
-}
