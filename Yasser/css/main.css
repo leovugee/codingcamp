@@ -23,6 +23,13 @@ div {
 
 
 
+main {
+    background-color: #ffffff;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+}
+
 #content {
     background-color: #6aab2e;
     height: 150px;
@@ -32,14 +39,14 @@ div {
 }
 
 
-#div2 {
+#sidebar {
     background-color: #6aab2e;
     height:150px;
     width: 200px;
     border-radius: 7px;
     float: right; 
-    margin: auto;
 }
+
 
 
 #footer {
