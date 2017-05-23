@@ -1,0 +1,19 @@
+.box {
+	border: 3px solid black;
+	border-radius: 30px;
+	margin:20px;
+	text-align:center;
+}
+.box-radius {
+	border: 3px solid black;
+	border-radius:50%;
+	text-align:center;
+	margin:20px;
+	padding:50px;
+}
+.box-radius2 {
+	border: 3px solid black;
+	border-radius:25px 75px 25px 100px;
+	text-align:center;
+	padding:50px;
+}
