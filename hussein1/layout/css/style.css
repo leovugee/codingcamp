@@ -1,0 +1,40 @@
+html {
+	margin:auto;
+	padding:auto;
+}
+
+body {
+	text-align:center;
+	font-size:20px;
+
+}
+
+
+header{
+		width:80%;
+		height:500px;
+		background-color:red;
+		color:white;
+
+}
+
+section {
+		width:80%;
+		height:500px;
+		background-color:yellow;
+	
+}
+
+aside {
+		width:80%;
+		height:500px;
+		background-color:blue;
+		color:white;
+}
+
+footer {
+		width:80%;
+		height:500px;
+		background-color:black;
+		color:white;
+}
