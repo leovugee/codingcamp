@@ -1,0 +1,50 @@
+#container{
+    width: 1400px;
+    height: 2000px;
+    background-color:lightcyan;
+    margin: 0 auto;
+
+}
+
+header{
+    width: 800px;
+    border: 2px solid blue;
+    color: white;
+    background-color: green;
+    position: relative;
+    left:300px;
+    text-align: center;
+}
+
+section{  
+    width: 800px;
+    border: 2px solid blue;
+    color: white;
+    background-color: green;
+    position: relative;
+    left:300px;
+    top:20px;
+    text-align: center;
+}
+aside{
+    width: 800px;
+    border: 2px solid blue;
+    color: white;
+    background-color: green;
+    position: relative;
+    left:300px;
+    top:40px;
+    text-align: center;
+}
+
+footer{
+    width: 800px;
+    border: 2px solid blue;
+    color: white;
+    background-color: green;
+    position: relative;
+    left:300px;
+    top:60px;
+    text-align: center;
+
+}
