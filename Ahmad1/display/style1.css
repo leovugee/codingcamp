@@ -1,0 +1,26 @@
+#continer{
+	width: 900px;
+	margin: 0 auto;
+
+}
+header,footer{
+	text-align: center;
+	border:2px solid black;
+	margin: 7px;
+	padding: 50px;
+	background-color: green;
+	border-radius: 5px;	
+}
+section{
+	width: 190px;
+	display: inline-block;
+	text-align: center;
+	border:2px solid black;
+	margin: 1px;
+	padding: 50px;
+	background-color: green;
+	border-radius: 5px;	
+}
+#section{
+
+}
