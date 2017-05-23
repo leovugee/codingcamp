@@ -1,10 +1,29 @@
-div {
+.header {
 	width: 500px;
 	height: 100px;
 	border-radius: 10px;
-	background-color: #088A08;
-	
-	
+	background-color: #0B610B;
+}
+
+.section {
+	width: 500px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: #04B404;
+}
+
+.aside {
+	width: 500px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: #00FF00;
+}
+
+.footer {
+	width: 500px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: #58FA58;
 }
 
 p {
@@ -13,5 +32,4 @@ p {
 	text-align: center;
 	color: white;
 	font-size: 20px;
-
 }
