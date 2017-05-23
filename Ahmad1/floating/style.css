@@ -1,0 +1,19 @@
+header,section,aside,footer{
+	text-align: center;
+	border:2px solid black;
+	margin: 20px;
+	padding: 50px;
+	background-color: green;
+	border-radius: 5px;
+}
+.left{
+	float: left;
+	width: 60%;
+}
+.right{
+	float: right;
+	width: 20%;
+}
+.clear{
+	clear: both;
+}

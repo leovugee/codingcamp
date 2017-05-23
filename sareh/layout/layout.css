@@ -1,0 +1,31 @@
+body{
+	background-color: brown;
+}
+
+
+
+header,section,aside,footer{
+	background-color: green;
+	padding: 50px;
+	text-align: center;
+	border-radius: 15px;
+	margin: 10px;
+	height: 100px;
+
+
+}
+.sa{
+	float: left;
+	width: 300px;
+}
+.ma{
+	float: right;
+	width: 300px;
+}
+.ss{
+	clear: both;
+}
+ ul{
+	text-align: left;
+	color: white;
+}
