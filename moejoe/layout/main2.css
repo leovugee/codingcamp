@@ -1,0 +1,38 @@
+#container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+header {
+	border-radius: 10px;
+	background-color: #0B610B;
+}
+
+.section {
+	width: 30%;
+	border-radius: 10px;
+	float: left;
+	margin-right: 25px;
+	background-color: green;
+}
+	
+.section1 {
+	width: 30%;
+	border-radius: 10px;
+	float: left;
+	background-color: green;
+}
+
+footer {
+	border-radius: 10px;
+	background-color: #58FA58;
+	margin-top: 180px;
+}
+
+p {
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}

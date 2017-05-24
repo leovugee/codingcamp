@@ -1,31 +1,51 @@
-div {
+#container {
+	margin : 0 auto;
 	width: 500px;
-	height: 100px;
+}
+
+.header {
 	border-radius: 30px;
 	background-color: green;
-}
-
-p {
-	height: 100px;
-	line-height: 100px;
+	width: 400px;
+	height: 150px;
 	text-align: center;
-	color: white;
+	margin-bottom: 20px;
 }
 
-.section {
+.section1 {
+	border-radius: 30px;
+	background-color: green;
+	width: 25%;
+	height: 100px;
+	text-align: center;
 	float: left;
-	margin-top: 15px;
-	width: 320px;
-	margin-right: 10px;
+	margin-right: 8px;
 }
 
-.aside {
+.section2 {
+	border-radius: 30px;
+	background-color: green;
+	width: 25%;
+	height: 100px;
+	text-align: center;
 	float: left;
-	width: 170px;
-	margin-top: 15px;
+	margin-right: 8px;
+}
+
+.section3 {
+	border-radius: 30px;
+	background-color: green;
+	width: 25%;
+	height: 100px;
+	text-align: center;
+	float: left;
 }
 
 .footer {
-	margin-top: 130px;
-	clear: both;
+	border-radius: 30px;
+	background-color: green;
+	width: 390px;
+	height: 150px;
+	text-align: center;
+	margin-top: 150px;
 }
