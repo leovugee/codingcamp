@@ -7,31 +7,33 @@
 
 #div1{
 	position: relative;
-	background-color: #006262;
+	color: #F04B4B;
 	width: 150px;
 	height: 150px;
 	border: 2px solid red;
 	top: 30px;
 	left: 200px;
+	border-radius: 10px;
 }
 
 #div2{
 	position: absolute;
-	border: 2px dotted black;
+	border: 2px dotted #327F95;
 	top: 50px;
 	left: 80px;
 	
 }
 
 #relative{
-	background-color: #2B324C;
+	
 	position: relative;
 	width: 80px;
 	height: 80px;
-	border: 2px solid red;
-	color: white;
+	border: 2px solid #327F95;
+	color: #F04B4B;
 	left: 20px;
 	top: -70px;
+	border-radius: 10px;
 	
 }
 
@@ -53,4 +55,7 @@
 	height: 30px;
 	line-height: 30px;
 
+}
+#div1 p{
+	text-align: left;
 }
