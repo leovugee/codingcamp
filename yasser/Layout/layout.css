@@ -2,27 +2,21 @@
 
 body {
     margin: auto;
-}
-
-
-div {
-    color: #e9eae7;
     text-align: center;
     line-height: 150px;
-    margin: auto;
+    color: #e9eae7;
 }
 
 
-#div1 {
+header {
     background-color: #6aab2e;
     height: 150px;
     width: 800px;
     border-radius: 7px;
-<<<<<<< HEAD
-=======
+    margin-bottom: 4px;
+    line-height: 150px;
+    margin: 4px auto;
 }
-
-
 
 
 main {
@@ -30,37 +24,41 @@ main {
     width: 800px;
     height: 150px;
     margin: auto;
->>>>>>> bf51ecab6f5695bf2a4f4ec78b524e0609177438
 }
 
-
-
-
-#content {
+nav {
     background-color: #6aab2e;
     height: 150px;
-    width: 595px;
+    width: 260px;
     border-radius: 7px;
     float: left; 
 }
 
-
-#div2 {
+content {
     background-color: #6aab2e;
     height:150px;
-    width: 200px;
+    width: 260px;
     border-radius: 7px;
-    float: right; 
-    margin: auto;
+    float: left;
+    margin-left: 10px;
+}
+   
+
+aside {
+    background-color: #6aab2e;
+    height:150px;
+    width: 260px;
+    border-radius: 7px;
+    float: right;
 }
 
 
 
-#footer {
+footer {
     background-color: #6aab2e;
     height: 150px;
     width: 800px;
     border-radius: 7px;
     clear: both;
+    margin: auto;
 }
-
