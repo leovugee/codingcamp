@@ -1,0 +1,29 @@
+.c1 {
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 200px;
+}
+
+.dotted {
+	border-style: dotted;
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.relative {
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 200px;
+	position: relative;
+	bottom: 360px;
+	left: 55px;
+}
+
