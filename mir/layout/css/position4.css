@@ -1,0 +1,44 @@
+#container{
+    margin: 0 auto;
+    width: 900px;
+    border: 2px solid green;
+    height: 500px;
+    text-align: center;
+}
+
+#relative{
+    width:200px;
+    height: 100px;
+    border: 2px solid blue;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+#father{
+    border: 2px solid red;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left:400px;
+    top: 100px;
+    
+}
+
+#son{
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    position: absolute;
+    left: 255px;
+   
+
+}
+
+#fixed{
+    width:100px;
+    border: 2px solid blue;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
