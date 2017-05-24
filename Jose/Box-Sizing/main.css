@@ -1,0 +1,36 @@
+* {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;	
+	box-sizing: content-box;
+}
+
+div{
+	width: 200px;
+	height: 200px;
+	padding: 50px;
+	border: 8px solid black;
+	margin: 30px auto;
+	background-color: red;
+	
+}
+
+.box-border{
+	box-sizing: border-box;
+	padding: 20px;
+	
+}
+.box-border:hover{
+	border-radius: 30%;
+	transition-duration: 2s;
+}
+
+.box-padding{
+	box-sizing: border-box;
+	margin: 40px;
+	padding: 30px;
+}
+.box-padding:hover{
+	border-radius: 25px 75px;
+	transition-duration: 2s;
+	
+}

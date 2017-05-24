@@ -1,0 +1,51 @@
+#container {
+	margin : 0 auto;
+	width: 500px;
+}
+
+.header {
+	border-radius: 30px;
+	background-color: green;
+	width: 400px;
+	height: 150px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.section1 {
+	border-radius: 30px;
+	background-color: green;
+	width: 25%;
+	height: 100px;
+	text-align: center;
+	float: left;
+	margin-right: 8px;
+}
+
+.section2 {
+	border-radius: 30px;
+	background-color: green;
+	width: 25%;
+	height: 100px;
+	text-align: center;
+	float: left;
+	margin-right: 8px;
+}
+
+.section3 {
+	border-radius: 30px;
+	background-color: green;
+	width: 25%;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+
+.footer {
+	border-radius: 30px;
+	background-color: green;
+	width: 390px;
+	height: 150px;
+	text-align: center;
+	margin-top: 150px;
+}
