@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Position</title>
+
+	 <style type="text/css">
+
+	    p {
+	    	text-align: center;
+	    	line-height: 90px;
+	    }
+
+	 	div {
+          background-color: #d9d8d8;
+          width: 100px;
+          height: 100px;
+          color: #767070;
+          border-radius: 8px;
+   	 	}
+
+	 	#relative {
+	 		background-color: #ffffff;
+	 		position: relative;
+	 		border: 3px gray dotted;
+	 	}
+
+	 	#absolute {
+	 		background-color: #6aab2e;
+	 		color: #ffffff;
+	 	    position: absolute;
+	 	    top: 10px;
+	 	    left: 10px;
+	 	}
+
+	 	#text-align {
+	 		line-height: 20px;
+	 	}
+        
+        #margin-top {
+        	margin-top: -20px;
+        }
+	 </style>
+  </head>
+    
+   <body>
+
+    <div>
+	  <p>&lt;div&gt;</p>
+     </div>
+
+    <div id="relative">
+    <div id="absolute">
+	  <p id="text-align">&lt;div class="offset"&gt;</p>
+     </div>
+    </div>
+
+    <div id="margin-top">
+	  <p>&lt;div&gt;</p>
+     </div>
+
+  </body>
+</html>
