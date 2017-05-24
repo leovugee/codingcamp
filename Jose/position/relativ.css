@@ -18,9 +18,9 @@ p{
 	border-style: dotted;
 	}
 #div3{
-	position: absolute;
+	position: relative;
 	left: 20px;
-	top: 25px;
+	top: -150px;
 	
 	background-color: #006262;
 }
