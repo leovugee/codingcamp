@@ -2,8 +2,6 @@ body{
 	background-color: yellow;
 }
 
-
-
 header,section,footer{
 	background-color: green;
 	text-align:center;
@@ -12,7 +10,7 @@ header,section,footer{
 }
 section{
 	width: 27%;
-	display: inline-block;
+	display:inline-block;
 	margin: 2%;
 	font-size: 40px;
 }
