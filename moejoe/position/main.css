@@ -1,0 +1,22 @@
+div {
+	background-color: #E6E6E6;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 200px;
+	
+
+}
+
+.div1 {
+	border-style: dotted;
+	background-color: white;
+}
+
+.offset {
+	background-color: green;
+	color: white;
+	position: relative;
+	left: 30px;
+	bottom: 350px;
