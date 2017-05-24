@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Position absolute fixed</title>
+   </head>
+
+    <style type="text/css">
+
+     /* body {
+      	margin: 0 200px;
+      	background-color: #2f3f4f;
+      }
+*/   
+
+     a {
+     	color: #f11111;
+     	position: absolute;
+     	left: 600px;
+     }
+
+     a:hover {
+     	color: blue;
+     	transition-duration: 2s;
+     }
+
+
+      p {
+      	text-align: center;
+      	line-height: 60px;
+      }
+
+     #relative {
+     	border: 3px green solid;
+     	border-radius: 8px; 
+     	width: 900px;
+     	height: 500px;
+     	position: relative;
+     	top: 50px;
+     	left: 200px;
+     	right: 200px;
+     }
+
+     #relative1 {
+     	border: 3px blue solid;
+      	border-radius: 8px;
+      	width: 300px;
+      	height: 100px;
+      	position: relative;
+      	top: 20px;
+      	left: 20px;
+     }
+
+     #relative2 {
+     	border: 3px red solid;
+      	border-radius: 8px;
+      	width: 300px;
+      	height: 400px;
+      	position: absolute;
+      	top: 20px;
+      	right: 80px;
+     }
+
+     #absolute {
+     	border: 3px black solid;
+      	border-radius: 8px;
+      	width: 100px;
+      	height: 200px;
+      	position: absolute;
+      	top: 20px;
+      	right: 20px;
+     }
+
+      #fixed {
+      	border: 3px blue solid;
+      	border-radius: 8px;
+      	width: 300px;
+      	height: 100px;
+      	position: fixed;
+      	bottom: 0;
+      	right: 0;
+      }	
+
+    </style>
+
+  <body>
+     
+     <h1 id="Top" align="center">Example Position</h1>
+
+    <div id="relative">
+    	<div id="relative1">
+    	  <p>&lt;Relative&gt;</p>
+        </div>
+
+       <div id="relative2">
+    	<div id="absolute">
+    	
+         </div>
+        </div>
+
+    </div>
+
+    <div id="fixed">
+    	<p>&lt;Fixed&gt;</p>
+    </div>
+
+
+      <div> 
+
+      <   	
+  <p>
+	Now the background image is only shown once,<br> and positioned away from the text
+   </p>
+  	
+  <p>
+	Now the background image is only shown once,<br> and positioned away from the text
+   </p>
+   <p>
+	Now the background image is only shown once,<br> and positioned away from the text
+   </p>
+   <p>
+	Now the background image is only shown once,<br> and positioned away from the text
+   </p>
+   </div>
+
+
+   <h1><a href="#Top" title="Go to the top">Go Top</a></h1>
+
+
+   </body>
+</html>
