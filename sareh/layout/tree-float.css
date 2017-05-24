@@ -1,0 +1,25 @@
+body{
+	background-color: yellow;
+}
+
+
+
+header,section,footer{
+	background-color: green;
+	padding:5px;
+	text-align: center;
+	border-radius: 15px;
+	
+	height: 100px;
+
+
+}
+section{
+	width: 27%;
+	float: left;
+	margin: 2%;
+
+}
+footer{
+	clear: both;
+}

@@ -1,0 +1,54 @@
+#container{
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	d
+}
+
+#header{
+	width: 100%;
+	background-color: #034f84;
+	height: 100px;
+	margin: 0 0 10px 0;
+}
+p{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+.change{
+	background-color: #92a8d1;
+	color: white;
+	float: left;
+	width: 260px;
+	margin: 0 0 10px 0;
+	display: inline-block;
+	border-radius: 7px;
+	
+
+}
+
+#footer{
+	background-color: #618685;
+	clear: both;
+	width: 100%;
+	margin: 10px 0 0 0;
+	
+}
+
+#section1{
+	height: 150px;
+	
+	
+	 
+}
+#section2 {
+	height:150px;
+	margin-left: 10px;
+}
+   
+#section3{
+	height:150px;
+	float: right;
+}
