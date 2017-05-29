@@ -27,7 +27,7 @@
       }
 
       .farsi {
-        font-family: 'Clicker Script';
+        font-family:'IranNastaliq',Sans-Serif;
         font-size: 48px;
         text-shadow: 4px 4px 4px #aaa;
         direction: rtl;  /* Right to Left */
