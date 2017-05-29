@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Metamorphous');
+
+@font-face {
+	font-family: 'Tangerine';
+    src: url(Tangerine-Regular.ttf);
+}
+
+* {
+	text-align: center;
+	font-size: 70px;
+}
+
+
+.one {
+	font-family: 'Barrio';
+
+}
+
+.two {
+	font-family: 'Metamorphous';
+}
+
+.three {
+	font-family: 'Tangerine';
+}
