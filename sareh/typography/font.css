@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada');
 
-
+ section{
+	background-color: red;
+	background:-webkit-linear-gradient(to bottom right,#5F1354,#EB12CB);
+	background:-o-linear-gradient(to bottom right,#5F1354,#EB12CB);
+	background:-moz-linear-gradient(to bottom right,#5F1354,#EB12CB);
+	background:linear-gradient(to bottom right,#5F1354,#EB12CB);
+}
 
 h1{
 	font-size: 80px;
@@ -17,13 +23,15 @@ h1{
 .link-font{
 	font-family: 'Metamorphous', cursive;
 	font-size: 60px;
-	color: #EFBC15;
+	color: #0E100E;
+	text-align: center;
 
 }
 .import-font{
 	font-family: 'Montserrat Subrayada', sans-serif;
-	font-size: 40px;
-	color: #15EF7B;
+	font-size: 50px;
+	color: #091009;
+	text-align: center;
 }
 @font-face {
     font-family: 'myfont';
@@ -31,8 +39,36 @@ h1{
 }
 .font-face{
 	font-family: 'myfont';
-	font-size: 80px;
+	font-size: 90px;
 	text-align: center;
 	color: #1355FA;
 
+}
+header{
+	background-color: red;
+	background:-webkit-linear-gradient(#98AEE4,#0B43CF);
+	background:-o-linear-gradient(#98AEE4,#0B43CF);
+	background:-moz-linear-gradient(#98AEE4,#0B43CF);
+	background:linear-gradient(#98AEE4,#0B43CF);
+}
+.flag{
+	position: relative;
+	height: 300px;
+	width: 900px;
+	background-color: gray
+	background:-webkit-linear-gradient(#1CB214,#10B3E4,#EB1232);
+	background:-moz-linear-gradient(#1CB214,#10B3E4,#EB1232);
+	background:-o-linear-gradient(#1CB214,#10B3E4,#EB1232);
+	background:linear-gradient(#1CB214,#10B3E4,#EB1232);
+
+}
+.radial{
+	position: relative;
+	height: 500px;
+	width: 900px;
+	background-color: green;
+	 background: -webkit-radial-gradient(#EC0D9E, #0E0ADA, green);
+	 background: -o-radial-gradient(#EC0D9E, #0E0ADA, green);
+	 background: -moz-radial-gradient(#EC0D9E, #0E0ADA, green);
+	 background: radial-gradient(#EC0D9E, #0E0ADA, green);
 }
