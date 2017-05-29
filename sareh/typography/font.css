@@ -17,11 +17,13 @@ h1{
 .link-font{
 	font-family: 'Metamorphous', cursive;
 	font-size: 60px;
+	color: #EFBC15;
 
 }
 .import-font{
 	font-family: 'Montserrat Subrayada', sans-serif;
 	font-size: 40px;
+	color: #15EF7B;
 }
 @font-face {
     font-family: 'myfont';
@@ -29,6 +31,8 @@ h1{
 }
 .font-face{
 	font-family: 'myfont';
-	font-size: 50px;
+	font-size: 80px;
+	text-align: center;
+	color: #1355FA;
 
 }
