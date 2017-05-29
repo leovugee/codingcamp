@@ -1,0 +1,14 @@
+  @import url('https://fonts.googleapis.com/css?family=Pacifico');
+  @font-face {
+    font-family: 'FirstFont';
+    src: url(../Pacifico-Regular.ttf);
+}
+.link{
+    font-family: 'lobster';
+}
+.import{
+    font-family: 'Pacifico', cursive;
+}
+.font-face{
+    font-family: 'firstfont';
+}
