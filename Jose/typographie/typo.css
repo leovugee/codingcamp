@@ -1,0 +1,20 @@
+@font-face{
+	font-family: 'Diplomata';
+	src: url(Diplomata-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+.link-font{
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 100px;
+}
+.import-font{
+	font-family: 'Barrio';
+	font-size: 100px ;
+}
+
+.font-face-font{
+	font-family: 'Diplomata';
+	font-size: 50px;
+}
