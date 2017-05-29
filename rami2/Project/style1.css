@@ -1,0 +1,111 @@
+#container{
+	width: 100%;
+	margin: 0 auto;
+}
+header{
+	background-color: gray;
+	
+}
+
+h4 {
+	
+	color: green;
+	position: absolute;
+	right: 120px;
+	top: 40px;
+	
+}
+
+.a1 {
+	width: 200px;
+	position: relative;
+	left: 900px;
+	bottom: 20px;
+	
+
+
+}
+
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+h2 {
+	width: 100px;
+	position: relative;
+	left: 600px;
+	color: green;
+
+}
+
+h3 {
+	text-align: center;
+	color: white;
+}
+
+.b1 {
+	margin-bottom: 20px;
+	width: 150px;
+	height: 40px;
+	border-radius: 7px;
+	background-color: gray;
+	color: white;
+	border: 3px solid white;
+}
+
+section {
+	display: inline-block;
+	width: 33%;
+	margin-top: 20px;
+}
+
+footer {
+	background-color: gray;
+	height: 100px;
+}
+
+.a2 {
+	width: 200px;
+	position: relative;
+	
+	bottom: 20px;
+	left: 950px;
+}
+
+.pfooter {
+	color: green;
+	width: 200px;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: white;
+	font-family: 'lato';
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.a1:hover, .a2:hover {
+	color: red;
+}
+
+.b1:hover {
+	background-color: white;
+	color: black;
+}
+
+.a3:hover,.a4:hover {
+	background-color: white;
+	color: lightgray;
+}
+.p2{
+	text-align: center;
+}
