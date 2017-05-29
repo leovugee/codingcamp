@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+@font-face {
+	font-family: 'indie-flower';
+	src: url('Indie_Flower/IndieFlower.ttf');
+}
+
+
+.link {
+	font-family: "El Messiri";
+	font-weight:bold;
+	color:blue;
+	font-size:20px;
+}
+
+
+.import {
+	font-weight:bold;
+	font-size:20px;
+	font-family:"Noto Sans";
+}
+
+.font-face {
+	font-family:"indie-flower";
+	color:green;
+	font-size:20px;
+}
