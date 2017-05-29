@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+     .link {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+      }
+
+    @font-face {
+    font-family:  KeaniaOne-Regular;
+    src: url(KeaniaOne-Regular.ttf);
+    font-weight:400;
+     }
+
+     .font-face {
+     	font-family: KeaniaOne-Regular;
+     	font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+     }
+
+   
+
+      .import {
+      	font-family: 'Clicker Script';
+     	font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+      }
+
+      .farsi {
+        font-family: 'Clicker Script';
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+        direction: rtl;  /* Right to Left */
+      }
