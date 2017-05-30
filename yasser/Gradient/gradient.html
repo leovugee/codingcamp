@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Gradient tets</title>
+	<style type="text/css">
+
+	div {
+		margin: auto;
+		border-radius: 8px;
+		border: 4px solid #2f3f4f;
+		width: 700px;
+		height: 150px;
+    }
+
+    #solid {
+       background: #2f3f4f;    
+       background: -webkit-linear-gradient(right, #2f3f4f , #ffffff); 
+       background: -o-linear-gradient(left, #2f3f4f, #ffffff); 
+       margin-bottom: 10px;
+    }
+
+    #radial {
+    	
+      background: #2f3f4f; 
+      background: -webkit-linear-gradient(left top, #2f3f4f, #ffffff); 
+      background: -o-linear-gradient(bottom right, #2f3f4f, #ffffff); 
+    }
+
+    #flag {
+    	background: white;
+    	background: -webkit-linear-gradient( top, green, white, red); 
+        background: -o-linear-gradient(top, green, white, red);
+    	   }
+
+
+    #angle {
+    	background: -webkit-radial-gradient(circle, #2f3f4f, #ffffff, #f0f0f0);
+        background: -o-radial-gradient(circle, #2f3f4f, #ffffff, #f0f0f0);
+        width: 400px;
+        height: 400px;
+            }
+
+	</style>
+   </head>
+  <body>
+
+   <div id="solid"></div>
+   <div id="radial"></div>
+   <div id="flag"></div>
+   <div id="angle"></div>
+
+
+  </body>
+    }
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@viewport {
+    width: extend-to-zoom 980px;
+    min-zoom: 0.25;
+    max-zoom: 5;
+}
+
+body {
+  margin: auto;                            
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-color: #4A5559;
+  width: 100%;
+}
+
+header {
+  color: #ffffff;
+  position: relative;
+  height: 180px;
+  background-color: #4A5559;
+  width: 960px;
+  margin: auto;
+}
+
+#links {
+  position: absolute;
+  left: 590px;
+  top: 50px;
+  text-transform: uppercase;
+}
+
+header h1 {
+   font-family: 'Lato', sans-serif;
+   font-size: 45px;
+   font-weight: 100;
+   text-transform: uppercase;
+   position: absolute;
+   top: 5px;
+   left: 55px;
+}
+
+header h3 {
+  position: absolute;
+  left: 650px;
+  color: #6A9A6F;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header a:visited {
+  color: #ffffff;
+}
+
+section {
+  background-color: #DFF0E2;
+  height: 180px;
+  position: relative;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  line-height: 20px;
+}
+
+.content {
+  color: #6A9A6F;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  position: absolute;
+  top: 15px;
+  left: 600px;
+}
+
+
+p {
+  color: #939595;
+  line-height: 30px;
+  position: absolute;
+  top: 40px;
+  left: 400px;
+}
+
+
+footer {
+  width: 800px;
+  margin: auto;
+  clear: both;
+  margin-top: 20px;
+}
+
+#footer1 {
+  float: right;
+}
