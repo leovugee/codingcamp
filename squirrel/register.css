@@ -6,7 +6,7 @@
 header{
 	background-color: #033C44;
 	height:250px;
-	width: 1300px
+	width: 1300px;
 }
 @font-face {
 	font-family:myfont;
@@ -48,6 +48,7 @@ li{
 div{
 	clear: both;
 	height: 215px;
+	width: 1300px;
 	background: #f4e1d2;
 	background: -webkit-linear-gradient(left, #f4e1d2, #bc5a45);
 	background: -o-linear-gradient(right, #f4e1d2, #bc5a45);
