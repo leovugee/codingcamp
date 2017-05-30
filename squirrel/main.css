@@ -13,9 +13,10 @@ h1{
 	width: 20px;
 	float:left;
 	font-size: 35px;
-	color: black;
+	color: white;
 	font-family: myfont;
 	text-transform: uppercase;
+
 }
 @font-face {
     font-family:myfont;
@@ -40,12 +41,9 @@ header span{
 	height: 10px;
 	text-transform: uppercase;
 	clear: both;
-
 }
 li{
 	display: inline-block;
-
-
 }
  h2{
  	text-align: center;
@@ -59,10 +57,8 @@ header > p{
 	color: white;
 	margin-top: -20px;
 	font-style: italic;
-
-
 }
-button{
+a{
 	margin:auto;
 	display: block;
 	padding: 17px;
@@ -72,12 +68,15 @@ button{
 	border-radius: 5px;
 	background-color: #033C44;
 	color: white;
-	font-size: 20px;
+	font-size: 15px;
 	text-transform: uppercase;
 	font-family: buttom;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	text-decoration:none;
 
 }
-
 @font-face {
     font-family:buttom;
     src: url(buttom.ttf);
@@ -88,13 +87,7 @@ div{
 	width: 30%;
 	height: 300px; 
 	margin-left: 3%;
-
 }
-
-
-	
-
-
 
 h3{
 	color: gray;
@@ -108,10 +101,7 @@ h4{
 footer{
 	background-color: #033C44;
 	height: 100px;
-	width: 1300px;
-
-
-		
+	width: 1300px;		
 }
 
 footer > span{
@@ -133,10 +123,4 @@ footer nav {
 }
 li:hover{
 color: #7A9B75;
-}
-
-
-/*Second page*/
-.change2{
-	
 }
