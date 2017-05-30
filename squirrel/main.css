@@ -7,16 +7,13 @@ header{
 	background-color: #033C44;
 	height:45%;
 	width: 1300px
-	
-
-
 }
 h1{	
 	padding: 25px;
 	width: 20px;
 	float:left;
 	font-size: 35px;
-	color: white;
+	color: black;
 	font-family: myfont;
 	text-transform: uppercase;
 }
@@ -136,4 +133,10 @@ footer nav {
 }
 li:hover{
 color: #7A9B75;
+}
+
+
+/*Second page*/
+.change2{
+	
 }
