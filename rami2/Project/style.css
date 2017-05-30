@@ -1,10 +1,19 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
 #container{
 	width: 100%;
 	margin: 0 auto;
+
 }
+
+
 header{
 	background-color: gray;
-	
+	height: 300px;
+
 }
 
 h4 {
@@ -21,7 +30,7 @@ h4 {
 	position: relative;
 	left: 900px;
 	bottom: 20px;
-	
+	color: white;
 
 
 }
@@ -44,31 +53,34 @@ h3 {
 }
 
 .b1 {
-	margin-bottom: 20px;
 	width: 150px;
 	height: 40px;
 	border-radius: 7px;
 	background-color: gray;
 	color: white;
 	border: 3px solid white;
+	cursor: pointer;
 }
 
 section {
 	display: inline-block;
 	width: 33%;
 	margin-top: 20px;
+	height: 170px;
+	text-align: center;
 }
 
 footer {
 	background-color: gray;
-	height: 100px;
+	height: 187px;
+
 }
 
 .a2 {
 	width: 200px;
 	position: relative;
-	
-	bottom: 20px;
+	color: white;
+	bottom: 1px;
 	left: 950px;
 }
 
@@ -76,7 +88,7 @@ footer {
 	color: green;
 	width: 200px;
 	position: relative;
-	top: 20px;
+	top: 40px;
 	left: 20px;
 }
 
@@ -87,17 +99,18 @@ a {
 h1 {
 	color: white;
 	font-family: 'lato';
-	margin-left: 10px;
-	margin-top: 10px;
+	margin-left: 250px;
+	
+
 }
 
 .a1:hover, .a2:hover {
-	color: red;
+	color: green;
 }
 
 .b1:hover {
 	background-color: white;
-	color: black;
+	color: green;
 }
 
 .a3:hover,.a4:hover {

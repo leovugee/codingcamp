@@ -1,10 +1,16 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
 #container{
 	width: 100%;
 	margin: 0 auto;
 }
+
 header{
 	background-color: gray;
-	
+	height: 200px;
 }
 
 h4 {
@@ -21,7 +27,7 @@ h4 {
 	position: relative;
 	left: 900px;
 	bottom: 20px;
-	
+	color: white;
 
 
 }
@@ -40,37 +46,17 @@ h2 {
 
 }
 
-h3 {
-	text-align: center;
-	color: white;
-}
-
-.b1 {
-	margin-bottom: 20px;
-	width: 150px;
-	height: 40px;
-	border-radius: 7px;
-	background-color: gray;
-	color: white;
-	border: 3px solid white;
-}
-
-section {
-	display: inline-block;
-	width: 33%;
-	margin-top: 20px;
-}
-
 footer {
 	background-color: gray;
-	height: 100px;
+	height: 237px;
+	padding-top: 20px;
 }
 
 .a2 {
 	width: 200px;
 	position: relative;
-	
-	bottom: 20px;
+	color: white;
+	bottom: 1px;
 	left: 950px;
 }
 
@@ -78,8 +64,9 @@ footer {
 	color: green;
 	width: 200px;
 	position: relative;
-	top: 20px;
+	top: 40px;
 	left: 20px;
+
 }
 
 a {
@@ -89,12 +76,12 @@ a {
 h1 {
 	color: white;
 	font-family: 'lato';
-	margin-left: 10px;
-	margin-top: 10px;
+	margin-left: 250px;
+	
 }
 
 .a1:hover, .a2:hover {
-	color: red;
+	color: green;
 }
 
 .b1:hover {
@@ -106,6 +93,18 @@ h1 {
 	background-color: white;
 	color: lightgray;
 }
-.p2{
-	text-align: center;
+
+section {
+	height: 200px;
+    background: red;   
+    background: -webkit-linear-gradient(left, black , white); 
+    background: -o-linear-gradient(right, black, white); 
+    background: -moz-linear-gradient(right, black, white); 
+    background: linear-gradient(to right, black , white);
+    padding-top: 20px;
+
+
 }
+
+
+
