@@ -31,5 +31,5 @@
     background: -o-radial-gradient(circle, #FFFF00, #FF0000, black 60%);
     background: -moz-radial-gradient(circle, #FFFF00, #FF0000, black 60%);
     background: radial-gradient(circle, #FFFF00, #FF0000, black 60%);
-    border-radius: 100%;
+    border-radius: 50%;
 }
