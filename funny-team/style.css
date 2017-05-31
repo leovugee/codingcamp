@@ -1,0 +1,143 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #245A75;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.navi  {
+	border-radius: 10px;
+	padding: 10px;
+	float: right;
+	background-color: white;
+	margin-top: -60px;
+	height: 20px;
+}
+
+header a {
+	text-decoration: none;
+	color: grey;
+	font-family: 'El Messiri';
+	width: 10px;
+}
+
+h1 {
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Barrio';
+}
+
+header p {
+	color: white;
+	margin-top: -20px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+hr {
+	color: #093246;
+}
+
+
+.section1 {
+	
+	background-color: #144862;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+h2 {
+	color: white;
+	margin-left: 20px;
+	line-height: 70px;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: 'Gloria Hallelujah';
+}
+
+.section1 hr {
+	width: 920px;
+	color: #093246;
+
+}
+
+.section1 p {
+	float: left;
+	width: 400px;
+	margin-left: 20px;
+	text-shadow: 2px 2px 4px #000000;
+	color: white
+}
+
+.section1 img {
+	float: right;
+	border-radius: 10px;
+	border: 2px solid grey;
+	margin-right: 20px;
+	margin-top: 10px
+}
+
+.section2 {
+	
+	background-color: #144862;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.section2 hr {
+	width: 920px;
+	color: #093246;
+}
+
+.section2 p {
+	float: left;
+	width: 400px;
+	margin-left: 20px;
+	text-shadow: 2px 2px 4px #000000;
+	color: white
+}
+
+.section2 img {
+	float: right;
+	border-radius: 10px;
+	border: 2px solid grey;
+	margin-right: 20px;
+	margin-top: 10px
+
+}
+
+.section3 {
+	
+	background-color: #144862;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.section3 hr {
+	width: 920px;
+	color: #093246;
+}
+
+.section3 p {
+	float: left;
+	margin-left: 20px;
+	text-shadow: 2px 2px 4px #000000;
+	color: white
+}
+
+.section3 img {
+	float: right;
+	border-radius: 10px;
+	border: 2px solid grey;
+	margin-right: 20px;
+	margin-top: 10px
+}
+
+
+
