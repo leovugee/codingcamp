@@ -9,16 +9,21 @@ body {
 	color:white;
 }
 #loslo {
+	margin-top: 15px;
 	margin-bottom: 15px;
 	float:left;
+}
+h1 {
+	font-size: 3em;
 }
 nav ul {
 	float:right;
 	list-style: none;
-	margin-top: 20px;
+	margin-top: 40px;
 	background-color: #e3e6e8;
 	padding: 8px 5px 8px 20px;
 	border-radius: 9px;
+  	background: linear-gradient(grey, black, blue);
 }
 nav ul li {
 	display: inline;
@@ -41,10 +46,13 @@ nav ul li:hover {
 	padding: 20px;
 	float: left;
 }
+.div h2 {
+	background: linear-gradient(grey,black,grey);
+	border-radius: 5px;
+	padding-left: 10px;
+}
 .div p {
-	width: 40%;
 	text-shadow: 5px 2px 2px #17262d;
-	float:left;
 }
 #lastpar {
 	width:100%;
@@ -85,11 +93,37 @@ ul li img:hover {
 #butc {
 	margin-left: 330px;
 }
-.line {
-	margin-top: 20px;
-	margin-bottom: 40px;
-	width:960px;
-	height:47px;
-	border-bottom: 1px solid black;
-	position:absolute;
+#floatbox {
+	position: fixed;
+	top:200px;
+	left:-480px;
+	width:500px;
+	height:80px;
+	background-color: white;
+	color:black;
+	border-radius: 0 10px 10px 0;
+	transition: 1s;
+}
+#floatbox:hover {
+	transform: translate(480px,0);
+}
+#floatbox div {
+	float:left;
+	position: relative;
+	top:10px;
+	left: 20px;
+	width:60px;
+	height:60px;
+	background-color: red;
+}
+#floatbox h2 {
+	margin:10px 0px 10px 100px;
+}
+#floatbox a {
+	text-decoration: none;
+	margin-left: 40px;
+	font-size: .6em;
+}
+svg {
+	padding:20px;
 }
