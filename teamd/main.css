@@ -113,18 +113,18 @@ section {
   
 .border{
 	border-bottom: 2px solid #213e4a;
-	padding: 2px;
+	padding: 1px;
 	margin: 35px 0;
-	
-	box-shadow: 1px;
+	box-shadow: 0.5px 0.5px;
 }
 
 .border1{
 	border-bottom: 2px solid #355664;
-	padding: 2px;
+	padding: 1px;
 	margin-bottom: 8px;
 	margin-left: 20px;
 	margin-right: 20px;
+	box-shadow: 0.5px 0.5px;
 }
 
 
