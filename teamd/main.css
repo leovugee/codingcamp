@@ -29,6 +29,7 @@ body{
 	text-shadow: none;
 	width: 250px;
 	padding: 10px;
+	transition-duration: 2s;
 }
 
 #sidelink:hover {
