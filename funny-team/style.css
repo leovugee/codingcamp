@@ -16,6 +16,11 @@ body {
 	background-color: white;
 	margin-top: -60px;
 	height: 20px;
+	background: #FFFF00; 
+    background: -webkit-linear-gradient(left top, grey, white 80%);
+    background: -o-linear-gradient(bottom right, grey, white 80%); 
+    background: -moz-linear-gradient(bottom right, grey, white 80%); 
+    background: linear-gradient(to bottom right, grey, white 80%);
 }
 
 header a {
@@ -50,6 +55,11 @@ hr {
 	margin-bottom: 50px;
 }
 
+img:hover  {
+   box-shadow: 0px 0px 5px black;
+}
+
+
 h2 {
 	color: white;
 	margin-left: 20px;
@@ -65,8 +75,6 @@ h2 {
 }
 
 .section1 p {
-	float: left;
-	width: 400px;
 	margin-left: 20px;
 	text-shadow: 2px 2px 4px #000000;
 	color: white
@@ -77,11 +85,12 @@ h2 {
 	border-radius: 10px;
 	border: 2px solid grey;
 	margin-right: 20px;
-	margin-top: 10px
+	margin-top: 10px;
+	margin: 20px;
+	
 }
 
 .section2 {
-	
 	background-color: #144862;
 	border-radius: 10px;
 	overflow: hidden;
@@ -95,11 +104,10 @@ h2 {
 }
 
 .section2 p {
-	float: left;
-	width: 400px;
 	margin-left: 20px;
 	text-shadow: 2px 2px 4px #000000;
-	color: white
+	color: white;
+	
 }
 
 .section2 img {
@@ -107,8 +115,8 @@ h2 {
 	border-radius: 10px;
 	border: 2px solid grey;
 	margin-right: 20px;
-	margin-top: 10px
-
+	margin-top: 10px;
+	margin: 20px;
 }
 
 .section3 {
@@ -164,6 +172,43 @@ h5 {
 	background-color: #144862;
 	text-decoration: none;
 	color: white;
+}
+
+.fixed {
+	background-color: white;
+	position: fixed;
+	width: 300px;
+	height: 70px;
+	left: -280px;
+	top: 150px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	transition-duration: 1s;
+}
+
+.fixed img {
+	position: relative;
+	left: 5px;
+	bottom: 10px;
+	float: left;
+}
+.fixed a {
+	position: relative;
+	font-size: 10px;
+	bottom: 30px;
+	left: 80px;
+}
+
+.fixed p {
+	font-size: 20px;
+	position: relative;
+	left: 30px;
+	bottom: 10px;
+}
+
+.fixed:hover {
+	transform: translate(280px,0px);
+	transition-duration: 2s;
 }
 
 
