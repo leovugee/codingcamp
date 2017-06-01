@@ -60,7 +60,6 @@ nav ul li a{
 	text-transform:uppercase;
 }
 section{
-	height:33%;
 	margin-top:50px;
 	color:white;
 	border:1px solid #213e4a;
@@ -80,13 +79,14 @@ section p{
 }
 section img{
 	float:right;
-	max-width:500px;
 	margin-bottom:2%;
 	border-radius:5px;
 	overflow:hidden;
 	margin-right:1.4%;
 	margin-top:2.4%;
 	border:1px solid grey;
+	width:500px;
+	height:285px;
 }
 
 img:hover {
@@ -96,7 +96,7 @@ img:hover {
 }
 #halftone img{
 	max-height:150px;
-	max-width:160px;
+	max-width:150px;
 	border-radius:50%;
 	float:left;
 	display:block;
@@ -104,8 +104,9 @@ img:hover {
 }
 #halftone p {
 	float:none;
-	margin-left:2%;
-	max-width:95%;
+}
+.pcolor {
+	color:red;
 }
 .fix {
 	position:fixed;
@@ -149,6 +150,8 @@ footer{
 footer p {
 	display:inline;
 	margin-left:250px;
+	font-family:'my-font';
+	font-weight:bold;
 }
 footer a {
 	color:white;
