@@ -1,21 +1,23 @@
 
 body{
-	background-color: #0A2835;
-	height: 100%;
-	width: 100%;
+	background-color: #355665;
+	
 }
 .nav {
 	width: 800px;
 	height: 75px;
-	background-color: #081C24;
+	background-color: #355665;
 	margin:0 auto;
 }
 .container {
-	width: 800px;
-	height: 250px;
-	background-color: #081C24;
-	margin:0 auto;
-	margin-top: 0.5%;
+	width: 1000px;
+	height: 300px;
+	background-color: #223E49;
+	margin:10px auto 40px auto;
+	padding-top:15px;
+	border-radius: 20px;
+	overflow: hidden;
+	
 
 }
 .container h2 {
@@ -24,7 +26,19 @@ body{
 	display: inline;
 	margin-left: 2%;
 
+
  	
+}
+
+@font-face{
+	font-family: text;
+	src: url(text.ttf);
+}
+
+@font-face{
+	font-family: logo;
+	src: url(logo.ttf);
+
 }
 .container p {
 	float: left;
@@ -32,7 +46,8 @@ body{
 	clear: both;
 	color: #B4C5CC;
 	margin-left: 2%;
-	font-size: 15px;
+	font-size: 20px;
+	font-family: text;
 
 
 }
@@ -50,7 +65,7 @@ body{
 	background-color: white;
 	-webkit-padding-start: 0px;
 	margin-right: 3%;
-	margin-top: -15px;
+	margin-top: -25px;
 	border: 1px solid white;
 	border-radius: 4px;
 	padding: 4px;
@@ -74,6 +89,7 @@ body{
 	color: white;
 	text-transform: uppercase;
 	font-size: 25px;
+	font-family: logo ;
 	
 }
 footer{
@@ -84,19 +100,91 @@ footer{
 b{
 	float: right;
 	margin-top:-40px;
-	font-family: "Times New Roman", Times, serif;
-}
+	}
 b,p{
 	color: white;
 	font-weight: lighter;
 	font-style: initial;
+	
+}
+
+
+
+#main{
+	width: 960px;
+	margin: 0 auto;
+	/*border:10px solid #223E49;*/
+	background: #355665;
+
+}
+#style{
+	width:130px;
+	height: 130px;
+	border: 1px solid black;
+	border-radius: 50%;
+	display: inline;
+	clear: left;
+	margin-right: 85px;
+	margin-top: 30px;
+	overflow: auto;
+	margin-bottom: 20px;
+
+
+}
+#half{
+	clear:both;
+}
+.last{
+	height: 450px;
+
+
+}
+.line{
+	height: 1px;
+	width: 950px;
+	color: black;
+	border: 0.5px inset black;
+	float: left;
+	background-color: black;
+	border-radius: 5px;
+	opacity: 0.1;
+	margin-bottom: 30px;
+	margin-left:15px; 
+}
+.fixed{
+	position: fixed;
+	left: -290px;
+	top:300px;
+	background-color: white;
+	height: 70px;
+	width: 300px;
+	border-radius: 0 5px 5px 0;
+	text-align: center;
+	line-height: 30px;
+	transition-duration: 1s;
+
 
 }
 
-#main{
-	width: 800px;
-	margin: 0 auto;
-	border:10px solid #081C24;
+.squere{
+	height: 40px;
+	width: 40px;
+	background-color: brown;
+	position: absolute;
+	left: 13px;
+	top: 15px;
+	line-height: 60px;
+	font-size: 15px;
 
+
+}
+a{
+	text-transform: uppercase;
+	text-decoration:none;
+}
+.fixed:hover{
+	transform: translate(290px, 0);
+	transition-duration: 1s;
+	background-color: gray;
 
 }
