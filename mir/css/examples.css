@@ -1,0 +1,151 @@
+.hover{
+    background-color: blue;
+    width: 200px;
+    border: 2px solid green;
+    color: white;
+}
+.hover:hover {
+    /*when put mouse on here color will change*/
+    background-color: #ff00ff;
+    transform: scale(1.5);
+}
+
+
+.father{
+    color:white;
+    width:500px;
+    height:500px;
+    background-color: black;
+    position: relative;
+}
+
+.son{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    left: 200px;
+    top: 200px;
+}
+/* when put mouse on father  "son" wil change*/
+.father:hover .son{
+    background: green;
+}
+
+/* this rotate thing */
+.div1{
+    width: 400px;
+    position: relative;
+    left:600px;
+    transform: rotate(45deg);
+}
+
+.div2{
+    width: 400px;
+    position: relative;
+    bottom: 150px;
+    transform: rotate(-45deg);
+}
+
+/*with transform scale we make div big or small */
+.div3{
+    width:300px;
+    border: 2px solid lightskyblue;
+    background-color: gray;
+    transform: scale(3,3);
+    position: relative;
+    left:500px;
+    bottom: 70px;
+}
+.div4{
+    width:300px;
+    padding: 2px;
+    border:3px solid lightcoral;
+    transform: scale(0.5);
+}
+
+/* for changing the place*/
+.translate{
+    width: 200px;
+    border: 3px dotted greenyellow;
+    transform: translate(50px,-100px);
+}
+
+.transition a{
+    color:orange;
+    transition-duration: 1s;
+}
+.transition a:hover{
+    color:black;
+}
+/* ba in khat "transition-property:"inja mitoonim begin ke chi faghat harekat kone"*/
+.div5{
+    width:200px;
+    border: 2px solid black;
+    background-color: red;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+ .div5:hover{
+     background-color: green;
+     transform: rotate(20deg);
+ }
+
+
+.blackbox{
+    width:500px;
+    height:500px;
+    background-color: black;
+    position: relative;
+    left:500px;
+  
+}
+.blackbox:hover .north{
+    position: absolute;
+    transform: translate(0,200px)
+}
+.blackbox:hover .south{
+    position: absolute;
+    transform: translate(0,-200px)
+}
+.north{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    left: 200px;
+    transition-duration: 2s;
+
+}
+
+
+.south{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    position:absolute;
+    color:blue;
+    bottom: 0px;
+    left:200px; 
+    transition-duration: 2s;
+}
+.west{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    position:absolute;
+    right: 0px;
+    top:200px;
+    transition-duration: 2s;
+}
+.east{
+    width:100px;
+    height: 100px;
+    background-color: white;
+    position:absolute;
+    left: 0px;
+    bottom:200px;
+    transition-duration: 2s;
+}
+
+
