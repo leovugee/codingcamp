@@ -71,7 +71,7 @@ nav{
 
 li {
 	margin: 3px;
-	display: inline;
+	display: block;
 }
 
 a {
@@ -184,7 +184,25 @@ footer a:visited {
 }
 
 
+.parent-item{
+	position: relative;
+	display: inline-block;
+}
+.child{
+	position: absolute;
+	opacity: 0;
+	transition-duration: 0.5s;
+	transition-property:opacity transform;
+	transform: translate(0,-10px);
 
+
+}
+.parent-item:hover .child{
+	background: white;
+	opacity: 1;
+	transform: translate(0);
+	
+}
 
 
 
