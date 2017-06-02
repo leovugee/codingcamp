@@ -1,0 +1,40 @@
+body {
+	margin:auto;
+}
+
+@keyframes slide {
+
+	0% {
+		left:0;
+		top:0;
+	}
+
+	50% {
+		left:244px;
+		top:100px;
+	}
+
+	100% {
+		left:488px;
+		top:0;
+	}
+}
+
+#box {
+	border:2px solid green;
+	animation-name:slide;
+	animation-duration:4s;
+	width:200px;
+	height:200px;
+	background-color:black;
+	position:absolute;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	border-radius:50%;
+
+}
+
+#box p {
+	text-align:center;
+	color:white;
+}
