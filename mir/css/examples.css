@@ -102,12 +102,24 @@
 }
 .blackbox:hover .north{
     position: absolute;
-    transform: translate(0,200px)
+    transform: translate(0,200px);
+    transition-delay: 0.5s;
 }
 .blackbox:hover .south{
     position: absolute;
-    transform: translate(0,-200px)
+    transform: translate(0,-200px);
+    transition-delay: 1s;
 }
+.blackbox:hover .east{
+    position: absolute;
+    transform: translate(200px,0px);
+    transition-delay: 1.5s;
+}
+.blackbox:hover .west{
+    position: absolute;
+    transform: translate(-200px,0px);
+    transition-delay: 2s;
+    }
 .north{
     width: 100px;
     height: 100px;
@@ -148,4 +160,29 @@
     transition-duration: 2s;
 }
 
+@keyframes slide {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    50%{
+        left:488px;
+        top: 100px;
+        background-color: lightblue;
+    }
+    100%{
+        left: 488px;
+        top: 0;
+    }
+}
 
+.animation {
+    width: 200px;
+    position: absolute;
+    height: 100px;
+    background-color:lightgreen;
+    animation-duration: 3s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
