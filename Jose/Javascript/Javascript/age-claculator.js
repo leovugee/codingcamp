@@ -4,4 +4,4 @@ var years = futureYear - birthdayYear;
 
 var calculator = "I will be either " + (years - 1) + " or " + years + " in " + futureYear;
 
-console.log(calculator);
+document.getElementById("demo").innerHTML = "I will be either " + (years - 1) + " or " + years + " in " + futureYear;
