@@ -1,0 +1,88 @@
+#container{
+    background-image: url("../img/background.jpg");
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+header{
+    border: 2px solid lightcyan;
+    color: white;
+    width: 300px;
+    position: relative;
+    left: 550px
+}
+
+
+
+nav{
+    border: 2px solid red;
+    width: 400px;
+    position: relative;
+    left:550px;
+    padding: 10px;
+}
+a{
+    color: red;
+}
+
+/* visited link color will change to orange */
+a:visited{
+    color: orange;
+}
+
+
+
+
+.text{
+    position: fixed;
+border: 2px solid blue;
+color:pink;
+width:500px;
+left:900px;
+}
+
+
+
+
+article{
+border: 2px solid yellow;
+width: 500px;
+position: relative;
+left: 200px;
+}
+
+
+
+.register{
+border: 2px solid purple;
+width: 400px;
+position: relative;
+left: 550px;
+}
+
+
+
+
+
+aside{
+border: 2px solid lightpink;
+width: 300px;
+position: relative;
+left: 950px;
+}
+
+
+
+
+footer{
+border: 2px solid lightsalmon;
+position: fixed;
+left:1px;
+bottom: 10px;
+color:wheat;
+left: 70px;
+
+}
+ 

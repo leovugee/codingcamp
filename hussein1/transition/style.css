@@ -1,0 +1,69 @@
+body {
+	margin:auto;
+}
+
+#compass{
+	width:500px;
+	height:500px;
+	background-color:black;
+	position:relative;
+	color:white;
+	border:2px solid green;
+	transition-duration:2s;
+	transition-property:transfrom;
+
+}
+#compass:hover #north{
+	background:blue;
+	top:200px;
+}
+
+#compass:hover #south{
+	background:white;
+	top:200px;
+
+}
+#compass:hover #west{
+	background:red;
+	left:200px;
+}
+#compass:hover #east{
+	background:green;
+	left:200px;
+
+
+	
+}
+
+#north,#south,#west,#east {
+	width:100px;
+	height:100px;
+	background-color:white;
+	transition-duration:2s;
+
+
+}
+#north{
+	position:absolute;
+	left:200px;
+	
+}
+#south {
+	position:absolute;
+	left:200px;
+	top:400px;
+
+}
+#west{
+	position:absolute;
+	bottom:200px;
+	
+	
+
+}
+#east {
+	position:absolute;
+	left:400px;
+	top:200px;
+	
+}

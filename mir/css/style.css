@@ -1,0 +1,37 @@
+#container{ 
+    background-image: url(../img/background.jpg);
+    width:1200px;
+    margin: 0 auto;
+     }
+     nav{
+         text-align: center;
+     }
+     h2{
+        color: white;
+     }
+     
+section{
+    border-style: double;
+    border-width: 5px;
+    width: 600px;
+    float: left;
+}
+
+aside {
+    
+    color:blue;
+    text-align: right;
+    width: 200px;
+    border-width: 5px;
+    border-style: dotted;
+    float: left;
+}
+
+
+footer{
+      text-decoration: line-through;
+      color: lightpink;
+      clear: both;
+      
+}
+

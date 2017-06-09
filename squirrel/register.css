@@ -1,0 +1,91 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #033C44;
+	height:250px;
+	width: 1300px
+}
+@font-face {
+	font-family:myfont;
+	src: url(myfont.ttf);
+}
+
+h1{	
+	padding: 25px;
+	width: 20px;
+	float:left;
+	font-size: 35px;
+	color: white;
+	font-family: myfont;
+	text-transform: uppercase;
+}
+header span{
+	width: 200px;
+	float: right;
+	color: #7A9B75;
+	margin-right: 50px;
+	display: inline-block;
+	height: 70px;
+	padding-top:30px;
+	font-size: 15px; 
+}
+header >nav{
+	
+	width: 432px;
+ 	margin-top: -100px;
+	float: right;
+	color: white;
+	height: 10px;
+	text-transform: uppercase;
+	clear: both;
+}
+li{
+	display: inline-block;
+}
+div{
+	clear: both;
+	height: 215px;
+	background: #f4e1d2;
+	background: -webkit-linear-gradient(left, #f4e1d2, #bc5a45);
+	background: -o-linear-gradient(right, #f4e1d2, #bc5a45);
+	background: -moz-linear-gradient(right, #f4e1d2, #bc5a45);
+	background: linear-gradient(to right, #f4e1d2, #bc5a45);
+}
+
+h2{
+ 	text-align: center;
+ 	color: #7A9B75;
+ 	clear: both;
+ 	height: 50px;
+ 	padding-top: 40px;
+ }
+div > p{
+	clear: both;
+	text-align: center;
+	color: #b2b2b2;
+	margin-top: -20px;
+	font-style: italic;
+	color: white;
+}
+footer{
+	background-color: #033C44;
+	height: 212px;
+	width: 1300px;
+}
+footer > span{
+	float: left;
+	color: #7A9B75;
+	padding: 20px 0 0 20px;	
+}
+footer nav {
+	text-align: right;
+	padding: 20px 30px 0 0;
+	color: white;
+}
+li:hover{
+color: #7A9B75;
+}
+

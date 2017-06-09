@@ -1,0 +1,46 @@
+div {
+	width:600px;
+	height:200px;
+	margin:5%;
+}
+
+.trans {
+
+		background: green;
+		background:-webkit-linear-gradient(left,rgba(0,255,0,0),rgba(0,255,0,1));
+		background:-o-linear-gradient(left,rgba(0,255,0,0),rgba(0,255,0,1));
+		background:-moz-linear-gradient(left,rgba(0,255,0,0),rgba(0,255,0,1));
+		background: linear-gradient(to right,rgba(0,255,0,0),rgba(0,255,0,1));
+
+}
+
+.fan {
+
+		background: green;
+		background:-webkit-linear-gradient(top right,green,yellow);
+		background:-o-linear-gradient(top right,green,yellow);
+		background:-moz-linear-gradient(top right,green,yellow);
+		background: linear-gradient(to top left,green,yellow);
+
+
+}
+
+.flag {
+
+		background: green;
+		background:-webkit-linear-gradient(red,green,red);
+		background:-o-linear-gradient(red,green,red);
+		background:-moz-linear-gradient(red,green,red);
+		background: linear-gradient(red,green,red);
+
+
+}
+
+.rad {
+
+	  background: red; 
+	  background: -webkit-radial-gradient(red, yellow, green); 
+	  background: -o-radial-gradient(red, yellow, green); 
+	  background: -moz-radial-gradient(red, yellow, green); 
+	  background: radial-gradient(red, yellow, green); 
+}

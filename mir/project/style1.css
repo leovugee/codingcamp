@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+header{
+	background-color: gray;
+	height: 200px;
+}
+
+h4 {
+	
+	color: green;
+	position: absolute;
+	right: 120px;
+	top: 40px;
+	
+}
+
+.a1 {
+	width: 200px;
+	position: relative;
+	left: 900px;
+	bottom: 20px;
+	color: white;
+
+
+}
+
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+h2 {
+	width: 100px;
+	position: relative;
+	left: 600px;
+	color: green;
+
+}
+
+footer {
+	background-color: gray;
+	height: 237px;
+	padding-top: 20px;
+}
+
+.a2 {
+	width: 200px;
+	position: relative;
+	color: white;
+	bottom: 1px;
+	left: 950px;
+}
+
+.pfooter {
+	color: green;
+	width: 200px;
+	position: relative;
+	top: 40px;
+	left: 20px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: white;
+	font-family: 'lato';
+	margin-left: 250px;
+	
+}
+
+.a1:hover, .a2:hover {
+	color: green;
+}
+
+.b1:hover {
+	background-color: white;
+	color: black;
+}
+
+.a3:hover,.a4:hover {
+	background-color: white;
+	color: lightgray;
+}
+
+section {
+	height: 200px;
+    background: red;   
+    background: -webkit-linear-gradient(left, black , white); 
+    background: -o-linear-gradient(right, black, white); 
+    background: -moz-linear-gradient(right, black, white); 
+    background: linear-gradient(to right, black , white);
+    padding-top: 20px;
+
+
+}
+
+
+
