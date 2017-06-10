@@ -1,0 +1,39 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	background-color: lightblue;
+	width :100%;
+	height:700px;
+	border: 2px solid black;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+article{
+	background-color: lightgreen;
+	width:30%;
+	border: 2px solid black;
+	float: left;
+	margin: 1%;
+}
+
+aside{
+	background-color: lightgray;
+	width: 29%;
+
+	float: right;
+	margin:1%;
+}
+.newart{
+	background-color: #ffeecc;
+	width: 30%
+}
+@media all and (max-width: 768px){
+	aside{
+		clear: both;
+		float: none;
+	}
+}
