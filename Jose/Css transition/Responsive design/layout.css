@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.container {
+display: flex; 
+    flex-direction: column;
+    
+  width: 100%;
+}
+
+.content {
+  min-height: 50vh;
+  padding: 1%;
+}
+
+.main-article {
+  background-color:	#ff8dcd;
+  
+  
+}
+
+.secondary-article {
+  background-color: #3f8dcd;
+  
+  
+}
+
+.sidebar {
+  background-color: #6bfabd;
+  
+  min-height: 50vh;
+  
+}
+
+.header {
+  height: 300px;
+  background-color: #d697db;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-title {
+  color: white;
+  font-size: 48px;
+  margin: 0;
+
+}
+
+.jobs  {
+  background-color: #fcf8c8;
+  clear: both;
+}
+
+.footer {
+  text-align: center;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+li{
+    display: block;
+}
+
+
+
+
+@media all and (min-width: 600px) {
+  .container {
+    min-height: 0;
+    flex-direction: row;
+  }
+
+ 
+
+  .secondary-article {
+    width: 50%;
+      
+  }
+
+  
+}
+
+@media all and (min-width: 1200px){
+    
+    .container{
+        display: flex; 
+                                /* study flex */
+    }
+    .main-article {
+        
+         width: 40%;
+  }
+    
+    .secondary-article {
+        width: 25%;
+    }
+    
+    .sidebar{
+        
+        width: 10%;
+    }
+    
+}
+img{
+    max-width: 100%;
+}
+
+/*@media (min-width : 400px){
+    html{
+        background: red;
+    }
+}
+@media (min-width : 600px){
+    html{
+        background: green;
+    }
+}
+
+@media (min-width : 800px){
+    html{
+        background: blue;
+    }
+}*/
+
+
+
+    
