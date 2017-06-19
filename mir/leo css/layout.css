@@ -1,3 +1,11 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  max-width: 100%;
+}
 html {
   box-sizing: border-box;
 }
@@ -13,6 +21,8 @@ body {
 
 .container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
@@ -22,21 +32,14 @@ body {
 
 .main-article {
   background-color:	#ff8dcd;
-  float: left;
-  width: 40%;
 }
 
 .secondary-article {
   background-color: #3f8dcd;
-  float: left;
-  width: 25%;
 }
 
 .sidebar {
   background-color: #6bfabd;
-  float: right;
-  min-height: 50vh;
-  width: 10%;
 }
 
 .header {
@@ -53,27 +56,57 @@ body {
 
 .jobs  {
   background-color: #fcf8c8;
-  clear: both;
+
 }
 
 .footer {
   text-align: center;
 }
 
-@media all and (max-width: 768px) {
-  .content {
-    min-height: 0;
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+  li{
+    display: block;
   }
 
-  .main-article {
-    width: 100%;
+@media all and (min-width: 600px){
+  .container{
+    flex-direction: row;
   }
-
   .secondary-article {
     width: 50%;
+    
+  }
+  .sidebar{
+    
   }
 
-  .sidebar {
-    width: 100%;
-  }
 }
+@media all and (min-width: 1200px) {
+  
+  .main-article {
+    width: 40%;
+  }
+    .secondary-article {
+    width: 25%;
+  }
+   .sidebar {
+    width: 10%;
+   }
+}
+
+/*
+}
+@media all and (min-width: 800px) {
+  html{background-color: black; }
+}
+@media all and (min-width: 600px) {
+  html{background-color: green; }
+}
+@media all and (min-width: 400px) {
+    html{background-color: red; }
+  } */
