@@ -12,68 +12,82 @@ body {
 }
 
 .container {
+  display:flex;
+  flex-direction: column;
   width: 100%;
 }
 
 .content {
-  min-height: 50vh;
   padding: 1%;
 }
 
 .main-article {
   background-color:	#ff8dcd;
-  float: left;
-  width: 40%;
 }
 
 .secondary-article {
   background-color: #3f8dcd;
-  float: left;
-  width: 25%;
 }
 
 .sidebar {
   background-color: #6bfabd;
-  float: right;
-  min-height: 50vh;
-  width: 10%;
 }
 
 .header {
+  display:flex;
+  align-items: center;
+  justify-content: center;
   height: 300px;
   background-color: #d697db;
   text-align: center;
 }
 
 .header-title {
+  align-items:center;
   color: white;
   font-size: 48px;
   margin: 0;
 }
 
+.navigation {
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .jobs  {
   background-color: #fcf8c8;
-  clear: both;
 }
 
 .footer {
   text-align: center;
 }
 
-@media all and (max-width: 768px) {
-  .content {
-    min-height: 0;
-  }
+img {
+  max-width: 100%;
+}
 
-  .main-article {
-    width: 100%;
+@media all and (min-width: 600px) {
+  .container {
+    flex-direction:row;
   }
-
   .secondary-article {
     width: 50%;
   }
+}
 
+@media all and (min-width: 1200px) {
+  .main-article {
+    width: 40%;
+  }
+
+  .secondary-article {
+    width: 25%;
+  }
   .sidebar {
-    width: 100%;
+    width: 10%;
   }
 }
+
