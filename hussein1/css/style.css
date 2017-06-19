@@ -1,0 +1,197 @@
+body {
+	margin:auto;
+}
+
+
+.hav p {
+	background-color:blue;
+	color:black;
+
+}
+.hav p:hover {
+	background-color:yellow;
+
+}
+
+#father {
+	width:500px;
+	height:500px;
+	background-color:black;
+	position:relative;
+	color:white;
+}
+#son {
+	position:absolute;
+	left:200px;
+	top:200px;
+	background-color:red;
+	color:white;
+	width:200px;
+	height:100px;
+}
+#father:hover #son{
+	background-color:green;
+}
+#trs:hover {
+	transform: rotate(45deg);
+	width:100px;
+	height:200px;
+	position:relative;
+	left:50px;
+
+
+}
+#trs1:hover {
+	transform:rotate(-45deg);
+	width:100px;
+	height:200px;
+	position:relative;
+	left:50px;
+
+}
+
+
+#trs img {
+	width:200px;
+	height:200px;
+	border:1px solid black;
+}
+#trs1 img{
+	width:200px;
+	height:200px;
+	border:1px solid black;
+}
+#sca p {
+	margin:5px;
+	padding:10px;
+	background-color:green;
+	color:white;
+}
+
+#sca1 p {
+	margin:5px;
+	padding:10px;
+	background-color:black;
+	color:white;
+}
+#sca {
+	width:300px;
+	transform:scale(2,2);
+}
+#sca1 {
+	transform:scale(0.5,1);
+}
+
+#tran p {
+	margin:5px;
+	padding:10px;
+	background-color:green;
+	color:white;
+	border:1px solid yellow;
+}
+
+#tran1 p {
+	margin:5px;
+	padding:10px;
+	background-color:black;
+	color:white;
+}
+ #tran:hover {
+ 	transform: translate(50px,50px);
+ 	transition-duration:2s;
+ }
+ #tran1:hover {
+ 	transform: translate(50px,50px);
+ 	transition-duration:2s;
+ }
+.link a{
+	background-color:red;
+	transition-duration:1s;
+	margin:100px;
+	
+}
+.link:hover a{
+	background-color:orange;
+}
+
+.button {
+	background-color:red;
+	transition-property:transfrom;
+	margin:50px;
+	padding:10px;
+
+}
+.button:hover {
+	background-color:green;
+	transform:scale(2);
+	transition-duration:1s;
+}
+
+#compass{
+	width:500px;
+	height:500px;
+	background-color:black;
+	position:relative;
+	color:white;
+	border:2px solid green;
+	transition-duration:2s;
+	transition-property:transfrom;
+
+}
+#compass:hover #north{
+	background:blue;
+	transition-duration:2s;
+	transform: rotate(45deg);
+	top:200px;
+}
+
+#compass:hover #south{
+	background:yellow;
+	transition-duration:2s;
+	transform: rotate(45deg);
+	
+}
+#compass:hover #west{
+	background:red;
+	transition-duration:2s;
+	transform: rotate(45deg);
+	left:175px;
+}
+#compass:hover #east{
+	background:green;
+	transition-duration:2s;
+	transform: rotate(45deg);
+	
+}
+
+#north,#south,#west,#east {
+	width:100px;
+	height:100px;
+	background-color:white;
+	
+
+}
+#north{
+	position:absolute;
+	left:200px;
+	
+}
+#south {
+	position:absolute;
+	left:200px;
+	top:400px;
+
+}
+#west{
+	position:absolute;
+	bottom:200px;
+	
+	
+
+}
+#east {
+	position:absolute;
+	left:400px;
+	top:200px;
+	
+}

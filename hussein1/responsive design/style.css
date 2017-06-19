@@ -1,0 +1,38 @@
+body {
+	background-color:grey;
+}
+.container {
+	width:60%;
+	margin:0 auto;
+}
+
+article {
+	background-color:red;
+	width:35.5%;
+	float:left;
+	margin:1.5%;
+}
+aside {
+	background-color:blue;
+	width:19.5%;
+	float:right;
+	margin:1.5%;
+
+}
+
+p {
+	color:white;
+	margin:2%;
+	text-align:center;
+}
+#sec {
+	background-color:black;
+}
+
+@media all and (max-width:768px) {
+	aside {
+		clear:both;
+		float:none;
+		width:74%;
+	}
+}
