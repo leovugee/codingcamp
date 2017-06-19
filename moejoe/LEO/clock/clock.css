@@ -1,0 +1,52 @@
+#contain {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+#circle {
+	border-radius: 50%;
+	border: 5px solid black;
+	width: 500px;
+	height: 500px;
+	background-color: white;
+}
+
+#small {
+	width: 30%;
+	height: 8px;
+	background-color: black;
+	position: relative;
+	left: 105px;
+	bottom: 259px;
+	animation-name: rotation1;
+	animation-duration: 20s;
+	transform-origin: 150px;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+	animation-timing-function: linear;
+}
+
+#large {
+	width: 50%;
+	height: 8px;
+	background-color: black;
+	position: relative;
+	left: 5px;
+	bottom: 267px;
+	animation-name: rotation1;
+	animation-duration: 2s;
+	transform-origin: 250px;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+	animation-timing-function: linear;
+}
+
+@keyframes rotation1 {
+	0%{
+		transform: rotate(450deg);
+	}
+	100%{
+		transform: rotate(90deg);
+	}	
+}
