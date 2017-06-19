@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>untiled</title>
+
+<style>
+
+#compass {
+	height: 500px;
+	width: 500px;
+	background-color: black;
+	border-radius: 500px;
+}
+
+ #north {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	transform: translate(200px);
+	text-align: center;
+	transition-duration: 1s;
+	border-radius: 100px;
+
+}
+#east {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transform: translate(400px, -100px);
+	text-align: center;
+	transition-duration: 1s;
+	border-radius: 100px;
+	transition-delay: 1s;
+}
+#west {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	transform: translate(0px, 0px);
+	text-align: center;
+	transition-duration: 1s;
+	border-radius: 100px;
+	transition-delay: 3s;
+}
+#south {
+	width: 100px;
+	height: 100px;
+	background-color: grey;
+	transform: translate(200px,300px);
+	transition-duration: 1s;
+	text-align: center;
+	border-radius: 100px;
+	transition-delay: 2s;
+}
+
+
+
+#compass:hover #north {
+	transform: translate(200px, 200px);
+}
+#compass:hover #west {
+	transform: translate(200px, 0px);
+}
+#compass:hover #south {
+	transform: translate(200px, 100px);
+}
+#compass:hover #east {
+	transform: translate(200px, -100px);
+}
+
+  
+
+</style>
+</head>
+<body>
+
+<section>
+
+	<h2>COMPASS</h2>
+	<div id="compass">
+		<div id="north">north</div>
+		<div id="south">south</div>
+		<div id="west">west</div>
+		<div id="east">east</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

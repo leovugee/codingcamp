@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testing</title>
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Diplomata" rel="stylesheet"> 
+	<style>
+@keyframes slide {
+	0% {
+		left: 0;
+		top: 0;
+		}
+
+
+		25% {
+			left: 122px;
+			top: 100px;
+			background-color: blue;
+			border-radius: 10%;
+			}
+
+		50% {
+			left: 244px;
+			top: 100px;
+			background-color: green;
+			border-radius: 30%;
+			}
+
+		100% {
+			left: 488px;
+			top: 0;
+			background-color: red;
+			border-radius: 50%;
+			}
+		}
+
+.parent {
+	position: relative;
+	border-radius: 10px;
+	padding: 10px;
+	height: 40px;
+	background: #FFFF00; 
+    background: -webkit-linear-gradient(left top, blue, green);
+    background: -o-linear-gradient(bottom right, blue, green); 
+    background: -moz-linear-gradient(bottom right, blue, green);
+    background: linear-gradient(to bottom right, blue, green);
+	width: 500px;
+	
+}
+
+.parent-item {
+	position: relative;
+	display: inline-block;
+	font-size: 40px;
+	font-family: 'Permanent Marker';
+	margin: 5px;
+	margin-top: -7px;
+	margin-left: 20px;
+}
+
+.child {
+	position: absolute;
+	opacity: 0;
+	transition-duration: 1s;
+}
+
+.child-item {
+	font-size: 20px;
+	font-family: 'Diplomata';
+	text-shadow: 2px 2px 4px black;
+}
+
+.parent-item:hover .child {
+	opacity: 1;
+}
+
+#box {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: grey;
+	animation-name: slide;
+	animation-duration: 3s;
+	animation-iteration-count: 20;
+	animation-direction: alternate;
+
+}
+
+
+	</style>
+</head>
+<body>
+<ul class="parent">
+	<li class="parent-item">Home
+		<ul class="child">
+			<li class="child-item">Hello</li>
+			<li class="child-item">i need</li>
+			<li class="child-item">icecream</li>
+		</ul>
+	</li>
+	<li class="parent-item">About
+		<ul class="child">
+			<li class="child-item">Hello</li>
+			<li class="child-item">i need</li>
+			<li class="child-item">icecream</li>
+		</ul>
+	</li>
+	<li class="parent-item">Kontakt
+		<ul class="child">
+			<li class="child-item">Hello</li>
+			<li class="child-item">i need</li>
+			<li class="child-item">icecream</li>
+		</ul>
+	</li>
+</ul>
+
+<div id="box"></div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+		
