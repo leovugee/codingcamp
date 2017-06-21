@@ -28,7 +28,8 @@ function lastResult(avg) {
 			grade="bad";
 			break;
 		case 6:
-			grade="very bad";		
+			grade="very bad";
+			break;		
 	}
 	return grade;
 }
