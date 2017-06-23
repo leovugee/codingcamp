@@ -1,7 +1,7 @@
 .header{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 img{
   max-width: 100%;
@@ -26,7 +26,6 @@ body {
 }
 
 .content {
-  min-height: 50vh;
   padding: 1%;
 }
 
@@ -40,18 +39,21 @@ body {
 
 .sidebar {
   background-color: #6bfabd;
+  order :-1;
 }
 
 .header {
   height: 300px;
   background-color: #d697db;
   text-align: center;
+  display: flex;
 }
 
 .header-title {
   color: white;
   font-size: 48px;
   margin: 0;
+  align-self: center;
 }
 
 .jobs  {
@@ -76,28 +78,49 @@ body {
 @media all and (min-width: 600px){
   .container{
     flex-direction: row;
+     flex-wrap: wrap;
   }
   .secondary-article {
-    width: 50%;
-    
+    flex : 1 0 50%;
+  }
+  .article_two{
+    order: 1;
+  }
+  .main-article {
+    order: -1;
+    flex: 0 0 100%;
+
   }
   .sidebar{
-    
+    order: 0;
+    flex: 0 1 50%;
   }
-
 }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1000px) {
   
   .main-article {
-    width: 40%;
+  flex : 1 2 40%;
   }
     .secondary-article {
-    width: 25%;
-  }
+    flex: 1 2 25%;
+    order: -2;
+      }
    .sidebar {
-    width: 10%;
+    flex:1 2 10%;
+
    }
+    .article_two{
+    order: 0;
+  }
+
+  .small_box{
+  width: 4vw;
+  height: 4vw;
+  background-color: white;
+
+} 
 }
+
 
 /*
 }
