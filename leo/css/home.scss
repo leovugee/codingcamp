@@ -1,0 +1,39 @@
+@import 'base.scss';
+
+.css-intro {
+  font-family: 'Pacifico', cursive;
+  height: 100px;
+  margin: 20px 0;
+  @include flex;
+  @include gradient((red,orange,yellow,green,blue,indigo,violet), 90deg);
+}
+
+.css-container {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+.css-feature {
+  display: inline-block;
+  margin: 2%;
+  border: $border-standard;
+  font-size: 24px;
+  width: 300px;
+  height: 300px;
+  transition: 0.5s transform;
+}
+
+.css-feature:hover {
+  @include prefix(transform, scale(1.1));
+}
+
+.css-logo {
+  max-height: 200px;
+}
+
+.css-footer {
+  background-color: $slogan-background-color;
+  border-bottom: $border-standard;
+  border-top: $border-standard;
+  @include flex;
+}

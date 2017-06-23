@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+$denim : #0c72b8;
+$curious-blue : #30a9dc;
+
+$banner-background-color : $denim;
+$banner-color: white;
+$slogan-background-color : $curious-blue;
+$text-color : black;
+$border-color : black;
+
+$border-standard: 2px solid $border-color;
+
+@mixin flex($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin prefix($property, $value) {
+  #{$property}: $value;
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+}
+
+@mixin gradient($colors, $degree: 0deg) {
+  background: nth($colors, 1); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient($degree, $colors); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($degree, $colors); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($degree, $colors); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($degree, $colors); /* Standard syntax */
+}
+
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+}
+
+.css-banner {
+  background-color: $banner-background-color;
+  border-top: $border-standard;
+  border-bottom: $border-standard;
+  color: $banner-color;
+  font-family: 'Pacifico', cursive;
+  height: 400px;
+  @include flex();
+}
+
+.css-slogan {
+  background-color: $slogan-background-color;
+  border: $border-standard;
+  width: 50%;
+  height: 200px;
+  text-align: center;
+}
+
+.css-slogan span {
+  font-size: 48px;
+  line-height: 200px;
+}
