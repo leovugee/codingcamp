@@ -12,10 +12,9 @@ body {
 }
 
 .container {
-display: flex; 
+    display: flex; 
     flex-direction: column;
-    
-  width: 100%;
+    width: 100%;
 }
 
 .content {
@@ -47,31 +46,47 @@ display: flex;
   background-color: #d697db;
   
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    
     
 }
 
 .header-title {
-  color: white;
-  font-size: 48px;
-  margin: 0;
+    color: white;
+    font-size: 48px;
+    margin: 0;
+   
 
 }
 
-.jobs  {
-  background-color: #fcf8c8;
-  clear: both;
+.jobs {
+    background-color: #fcf8c8;
+    clear: both;
+}
+.jobs-search{
+    display: flex;
+}
+.jobs-input {
+    flex-grow: 2;
 }
 
 .footer {
   text-align: center;
 }
 
+.navigation{
+   
+}
+
 .navigation ul{
+     min-height: 60px;
+    padding: 0; 
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
+    align-content: space-around;
+    
 }
 
 li{
@@ -85,36 +100,64 @@ li{
   .container {
     min-height: 0;
     flex-direction: row;
+      flex-wrap: wrap;
   }
 
  
 
-  .secondary-article {
+  /*.secondary-article {
     width: 50%;
       
-  }
-
-  
-}
-
-@media all and (min-width: 1200px){
-    
-    .container{
-        display: flex; 
-                                /* study flex */
-    }
+  }*/
     .main-article {
         
-         width: 40%;
+         flex: 1 0 100%;
+            
   }
     
     .secondary-article {
-        width: 25%;
+        flex: 1 0 20%;        
     }
     
     .sidebar{
         
-        width: 10%;
+        flex: 0 1 40%;
+    }
+    
+    .last-secondary-article{
+        order: 1;
+        flex: 1 0 100%;
+    }
+
+  
+}
+
+@media all and (min-width: 1000px){
+    
+    .container{
+        display: flex; 
+        flex-wrap: wrap; 
+        flex-direction: row;/* study flex */
+    }
+    .main-article {
+        
+        flex: 1 0 40%;
+        order: 0;
+  }
+    
+    .secondary-article {
+        flex: 1 0 20%;
+        order: -1;
+    }
+    .last-secondary-article{
+        order: 0;
+    }
+    
+    .sidebar{
+        
+        flex: 0 1 20%;
+        order: 1;
+        
     }
     
 }
@@ -122,23 +165,25 @@ img{
     max-width: 100%;
 }
 
-/*@media (min-width : 400px){
-    html{
-        background: red;
-    }
-}
-@media (min-width : 600px){
-    html{
-        background: green;
-    }
+.navigation{
+    flex: 0 1 30%;
 }
 
-@media (min-width : 800px){
-    html{
-        background: blue;
+.box1{
+    width: 4vw;
+    height: 4vw;
+    background: white;
+    align-self: stretch;
+    flex: 0 0 4%;
+    border: 1px solid #d697db;
+    
+}
+
+@media all and (max-width: 500px){
+    .sidebar{
+        
+        order: -9;
     }
-}*/
-
-
-
+    
+}
     

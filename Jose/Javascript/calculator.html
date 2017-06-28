@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link  rel="stylesheet" type="text/css" href="calculator.css">
+              
+        <title>Calculator</title>
+    </head>
+    
+    <body onload="rest()">
+        <input type="text" id="num1">
+        <button id="sum"  value="sum" onclick= "calculator(this.value)">+</button>
+        
+        <button id="mul" value="mul" onclick="calculator(this.value)">*</button>
+        
+        <button id="min" value="min" onclick="calculator(this.value)">-</button>
+        
+        <button id="div"  value="div" onclick="calculator(this.value)">/</button>
+        
+        <input type="text" id="num2">
+        <button id="equal" onclick="result()">=</button>
+        <p id="text"></p>
+        <script src="Javascript/calculator.js"></script>
+    </body>
+</html>
