@@ -5,6 +5,7 @@ aar = document.getElementsByTagName("button");
 function rest() {
     document.getElementById("num1").value = 0;
     document.getElementById("num2").value = 0;
+    calculator("sum");
 }
 function reset(){
     document.getElementById("num1").value = "";
