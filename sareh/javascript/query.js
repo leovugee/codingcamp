@@ -1,8 +1,10 @@
 $( document ).ready(function() {
-   $("p").first().text("loooppp");
+  // $("p").first().text("loooppp");
   //$("p").first().next().text("love");
-  $("#container").children("div").text("pizariaaa");
-  $("#container :last").text("pizza");
-
+  //$("#container div").children().text("pizariaaa");
+  //$("#container :last").text("pizza");
+  var change = $('<span>i am new span</span>');
+  $('#container').append(change);
+  $("#container div").children().remove();
 });
- $("#container :first").text("loo");
+//$(change).appendTo('#container');
