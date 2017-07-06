@@ -25,14 +25,27 @@ a {
   height: 200px;
   text-align: center; }
 
-.css-slogan span {
+.css-slogan h1 {
   font-size: 48px;
-  line-height: 200px; }
+  line-height: 200px;
+  margin: 0; }
+
+.css-title-long {
+  display: none; }
+  @media all and (min-width: 1000px) {
+    .css-title-long {
+      display: block; } }
+
+.css-title-short {
+  display: block; }
+  @media all and (min-width: 1000px) {
+    .css-title-short {
+      display: none; } }
 
 .css-intro {
   font-family: 'Pacifico', cursive;
   height: 100px;
-  margin: 20px 0;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,16 +61,17 @@ a {
   /* Standard syntax */ }
 
 .css-container {
-  text-align: center;
-  font-family: 'Pacifico', cursive; }
+  display: flex;
+  font-family: 'Pacifico', cursive;
+  justify-content: space-around;
+  text-align: center; }
 
 .css-feature {
   display: inline-block;
-  margin: 2%;
+  margin: 20px;
   border: 2px solid black;
   font-size: 24px;
   width: 300px;
-  height: 300px;
   transition: 0.5s transform; }
 
 .css-feature:hover {

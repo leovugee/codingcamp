@@ -61,7 +61,22 @@ a {
   text-align: center;
 }
 
-.css-slogan span {
+.css-slogan h1 {
   font-size: 48px;
   line-height: 200px;
+  margin: 0;
+}
+
+.css-title-long {
+  display: none;
+  @media all and (min-width: 1000px) {
+    display: block;
+  }
+}
+
+.css-title-short {
+  display: block;
+  @media all and (min-width: 1000px) {
+    display: none;
+  }
 }
