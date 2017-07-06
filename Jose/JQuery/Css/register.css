@@ -1,0 +1,104 @@
+#container{
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+header{
+  text-align: center;
+  padding: 20px;
+}
+
+.email {
+  width:420px;
+  height:20px;
+  border: 1px solid black;
+  float: left;
+  clear: left;
+}
+#emailContainer{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#confirmationContainer{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#namesContainer{
+  float: left;
+  display: inline-flex;
+  margin-bottom: 13px;
+}
+
+#message {
+  font-weight: bold;
+  font-size: 16px;
+  float:right;
+  position: relative;
+  right: 78px;
+  margin: 5px 0 10px 0;
+}
+
+
+#messageConfirmation{
+  float: left;
+  margin: 5px 0 5px 0;
+  position: relative;
+  right: -320px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.visibility{
+  display: none;
+}
+
+
+
+
+#labelEmail{
+  float: left;
+  clear: right;
+}
+
+#confirmationLabel{
+  float: left;
+}
+
+#confirmation{
+  float: left;
+  clear: left;
+
+}
+
+#nameLabel{
+  float: left;
+  clear: left;
+}
+
+.namesPosition{
+  float: left;
+  clear: left;
+  width: 206px;
+  border: 1px solid black;
+
+}
+
+#registerButton{
+  float:left;
+  clear: left;
+}
+
+#tou{
+  float: left;
+  clear: left;
+  margin-bottom: 15px;
+}
+ #conditions{
+   float:left;
+   margin: 0;
+
+ }
