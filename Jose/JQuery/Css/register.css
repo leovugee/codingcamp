@@ -71,6 +71,8 @@ header{
 #confirmation{
   float: left;
   clear: left;
+  position: relative;
+  left: 500px;
 
 }
 
@@ -96,9 +98,12 @@ header{
   float: left;
   clear: left;
   margin-bottom: 15px;
+  position: relative;
+  right: 100px;
 }
  #conditions{
    float:left;
    margin: 0;
-
+   position: relative;
+   right: 200px;
  }

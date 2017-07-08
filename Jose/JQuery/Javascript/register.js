@@ -28,7 +28,9 @@ var conditions = $("#conditions");
       message.slideUp("slow");
       email.css("background-color", "#b5e7a0" );
       labelConfirmation.slideDown("slow");
-      confirmation.slideDown("slow");
+      confirmation.css("display", "block");
+      confirmation.animate({"left": "0px" }, "slow");
+
     }
   });
 
@@ -54,12 +56,16 @@ var conditions = $("#conditions");
 
   secondName.on(" keyup change", function(){
     secondName.css("background-color", "#b5e7a0");
+    acepptTOU.css("display" , "block");
+    acepptTOU.animate({"right": "0px"}, "slow");
+    conditions.css("display", "block");
+    conditions.animate({"right": "0"} , "slow");
+
+
+
   });
 
-  secondName.on("change keyup", function(){
-    acepptTOU.slideDown("slow");
-    conditions.slideDown("slow");
-  });
+
 
   acepptTOU.on("click", function(){
     registerButton.prop("disabled", false);

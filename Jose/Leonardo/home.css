@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/*---------header----------*/
+h1 {
+  text-align: center;
+  margin: 0 auto; }
+
+.css-banner {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  background-color: #5b9aa0;
+  margin-bottom: 30px; }
+
+.css-slogan {
+  display: flex;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  width: 400px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #87bdd8;
+  border: 1px inset black; }
+
+.css-title-short {
+  display: none; }
+
+/*--------------2. div-----------*/
+.css-intro {
+  font-family: 'Pacifico', cursive;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background: red;
+  background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+  background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+  background: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  margin-bottom: 20px; }
+
+p {
+  margin: 0 auto; }
+
+/*---------------Container-----------*/
+.css-container {
+  font-family: 'Pacifico', cursive;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px; }
+
+.css-container a {
+  text-decoration: none;
+  text-align: center; }
+
+.css-logo {
+  width: 200px; }
+
+.css-feature {
+  border: 1px solid black;
+  color: black;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.css-feature p {
+  margin-bottom: 30px; }
+
+/*-------------- Footer---------------*/
+.css-footer {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: #5b9aa0; }
+
+.css-feature:hover {
+  transform: scale(1.1); }
+
+@media all and (max-width: 500px) {
+  .css-title-long {
+    display: none; }
+
+  .css-title-short {
+    display: inline; }
+
+  .css-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+  .css-feature {
+    margin-bottom: 30px; } }
+
+/*# sourceMappingURL=home.css.map */
