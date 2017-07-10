@@ -10,6 +10,6 @@ $(document).ready(function(){
     button.addClass("animate1");
     button.text("X");
   }
-
   });
+  
 });
