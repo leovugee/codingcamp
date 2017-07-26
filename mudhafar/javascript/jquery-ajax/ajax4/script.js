@@ -18,7 +18,7 @@ $(function(){
 
 
 
-   console.log(newObject);
+    console.log(newObject);
 
     // var listByName ="<h2>list by name</h2>";
 
@@ -28,7 +28,29 @@ $(function(){
     // });
 
     // byName.html(listByName);
-    // byGenre.html(listByGenre);
+
+
+    var listByGenre ="<h2>list by genre</h2>";
+
+    var nameList = "";
+
+    Object.keys(newObject).forEach(function(item){
+
+      nameList = "";
+
+      // console.log(item);
+
+      item.forEach(function(band){
+
+      nameList += '<li>' + band.name + '</li>';
+
+      });
+
+      listByGenre += '<ul><b>' + item.genre +'</b>' + nameList + '</ul>';
+
+    });
+
+    byGenre.html(listByGenre);
 
   });
 
