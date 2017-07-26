@@ -1,0 +1,21 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: green;
+  font-size: 14px;
+  text-align: center;
+  width:200px;
+  height:200px;
+  position: relative;
+  top:100px;
+  left:100px;
+}
+
+#msg {
+  position: relative;
+  margin-top: 100px;
+}

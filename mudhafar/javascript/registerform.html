@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery</title>
+	<link rel="stylesheet" type="text/css" href="css/registerform.css">
+</head>
+<body>
+
+	<div id="container">
+
+		<form>
+
+			<h2>Register Now!</h2><br><br>
+
+			<p>Email:</p>
+			<input type="email" name="email" placeholder="example@devugees.org" id="email"><span id="invemail" class="invalid">Invalid Email address!</span><br><br>
+
+			<p class="emailconfirm">Confirm Email:</p>
+			<input type="email" name="email" placeholder="example@devugees.org" id="emailcon" class="emailconfirm"><span id="invemailcon" class="invalid">Email addresses are not the same!</span><br><br>
+
+			<p class="flname">Name:</p>
+			<input type="text" name="fname" placeholder="First name" id="firstname" class="flname"><input type="text" name="lname" placeholder="Last name" id="lastname" class="flname"><br><br>
+
+			<div class="flname"><input type="checkbox" name="checkbox" id="checkbox"><span id="checklabel">I agree to the terms of use.</span><br><br></div>
+
+			<input type="submit" value="Register" class="flname" id="submitbtn" disabled>
+
+
+
+
+
+		</form>
+
+	</div>
+
+
+
+
+
+
+
+	<script type="text/javascript" src="jq/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="scripts/registerform.js"></script>
+
+</body>
+</html>

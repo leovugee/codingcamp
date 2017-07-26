@@ -1,0 +1,60 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+#container {
+	margin: 0 auto;
+	width:50%;
+	padding-top: 20px;
+	overflow:hidden;
+}
+
+h2 {
+	margin: 0 auto;
+	width: 50%;
+	padding:5px;
+	font-family: sans-serif;
+	background-color: lightgreen;
+	box-shadow: 2px 2px 2px grey;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.invalid {
+	font-size: .8em;
+	color:red;
+	display:none;
+}
+
+.emailconfirm {
+	transform:translateX(-200%);
+	transition: transform 1s;
+}
+
+.flname {
+	transform:translateX(2000%);
+	transition: transform 1s;
+}
+
+#checklabel {
+	color:blue;
+	font-size: .8em;
+}
+
+.comefromleft {
+	transform: translateX(0);
+}
+
+.comefromright {
+	transform: translateX(0);
+}
+
+input {
+	box-shadow: 2px 2px 2px grey;
+}
+
+p, span {
+	text-shadow: 2px 2px 2px grey;
+}

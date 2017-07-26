@@ -1,0 +1,15 @@
+nav, main {
+  float: left;
+}
+
+main {
+  background-color: #aaa;
+  min-height: 200px;
+  min-width: 200px;
+  margin-left: 20px;
+}
+
+img {
+  width:300px;
+  height:300px;
+}

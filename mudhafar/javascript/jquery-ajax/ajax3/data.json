@@ -1,0 +1,43 @@
+[
+  {
+    "genre": "rock",
+    "name": "Coldplay"
+  },
+
+  {
+    "genre": "rap",
+    "name": "WU-TANG CLAN"
+  },
+
+  {
+    "genre": "rock",
+    "name": "Twenty One Pilots"
+  },
+
+  {
+    "genre": "rock",
+    "name": "The Beatles"
+  },
+
+  {
+    "genre": "rap",
+    "name": "N.W.A."
+  },
+
+  {
+    "genre": "hip-hop",
+    "name": "Run-DMC"
+  },
+
+  {
+    "genre": "rap",
+    "name": "RUN-DMC"
+  },
+
+  {
+    "genre": "hip-hop",
+    "name": "A Tribe Called Quest"
+  }
+
+
+]

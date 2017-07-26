@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p, span {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+.css-banner {
+	background-color: #0c72b8;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+}
+
+.css-slogan {
+	display: flex;
+	background-color: #30a9dc;
+	justify-content: center;
+	width: 50%;
+	padding: 80px;
+	border: 1px solid black;
+}
+
+.css-title-long {
+	display: none;
+}
+
+.css-intro {
+	display:flex;
+	padding: 40px;
+	margin: 20px 0 40px 0;
+	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+	justify-content: center;
+}
+
+.css-container {
+	display:flex;
+	flex-wrap: wrap;
+	width:100%;
+	justify-content: space-around;
+}
+
+.css-logo {
+	height:200px;
+	width:200px;
+}
+
+.css-feature {
+	display:flex;
+	flex-direction: column;
+	text-decoration: none;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	margin: 20px;
+	width:250px;
+	height:300px;
+	border: 1px solid black;
+	color:black;
+	transition: transform .5s;
+}
+
+.css-feature:hover {
+	transform: scale(1.1);
+}
+
+.css-footer {
+	background-color: #30a9dc;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	height: 50px;
+	border: 1px solid black;
+}
+
+@media all and (min-width: 970px) {
+	.css-title-long {
+		display: block;
+	}
+	.css-title-short {
+		display: none;
+	}
+
+}
+
+
+
