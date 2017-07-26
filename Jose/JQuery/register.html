@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="Css/register.css">
+        <title>Register</title>
+    </head>
+
+    <body>
+      <div id="container">
+        <header>
+          <h1>Register now!!</h1>
+        </header>
+        <form>
+          <div id="emailContainer">
+            <label  id="labelEmail" for="email">Email:</label>
+            <input type="email" id="email" class="email" placeholder="example@devugees.org">
+            <p id="message" class="visibility">Incorrect email</p>
+          </div>
+          <div id="confirmationContainer">
+            <label for="confirmation" id="confirmationLabel" class="visibility">Confirm your email:</label>
+            <input type="email" id="confirmation" class="email visibility " placeholder="example@devugees.org">
+            <p id="messageConfirmation" class="visibility">Incorrect email</p>
+          </div>
+          <div id="namesContainer">
+            <div id="firstNameContainer">
+              <label for="firstName" id="nameLabel" class="visibility">First Name:</label>
+              <input type="text" id="firstName" class="namesInputs namesPosition visibility" placeholder="Name">
+            </div>
+            <div id="secondNameContainer">
+              <label for="secondName" id="secondNameLabel" class=" visibility">Second Name:</label>
+              <input type="text" id="secondName" class="namesInput2 namesPosition visibility" placeholder="Last name">
+            </div>
+          </div>
+          <input type="radio" id="tou" class="visibility">
+          <p id="conditions" class="visibility">I acept the TOU</p>
+        </form>
+        <button type="submit" id="registerButton" disabled>Register</button>
+
+      </div>
+      <script src="jquery-3.2.1.min.js"></script>
+      <script src="Javascript/register.js"></script>
+
+    </body>
+</html>
