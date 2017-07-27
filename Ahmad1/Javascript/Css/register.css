@@ -1,0 +1,11 @@
+h1{
+	background-color: pink;
+	font-size : 50px;
+	text-align: center;
+	border : 2px solid black;
+	border-radius: 5px
+
+}
+#validate{
+	display: none;
+}

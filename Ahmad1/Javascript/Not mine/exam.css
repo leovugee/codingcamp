@@ -1,0 +1,53 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+#container {
+	margin: 0 auto;
+	width:50%;
+	padding-top: 20px;
+}
+
+h2 {
+	margin: 0 auto;
+	width: 50%;
+	padding:5px;
+	font-family: sans-serif;
+	background-color: lightgreen;
+	box-shadow: 2px 2px 2px grey;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.invalid {
+	font-size: .8em;
+	color:red;
+	display:none;
+}
+
+.emailconfirm {
+	position: relative;
+	left:-1000px;
+	transition: transform 1s;
+}
+
+.flname {
+	position: relative;
+	left:1500px;
+	transition: transform 1s;
+}
+
+#checklabel {
+	color:blue;
+	font-size: .8em;
+}
+
+.comefromleft {
+	transform: translateX(1000px);
+}
+
+.comefromright {
+	transform: translateX(-1500px);
+}
