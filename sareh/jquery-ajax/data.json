@@ -1,0 +1,13 @@
+{
+	"name":{
+		"first":"sareh",
+		"last":"almaaz"
+	},
+	"hobbies":[
+		"programming",
+		"travel",
+		"football",
+
+	],
+	"birthday":1988
+}
