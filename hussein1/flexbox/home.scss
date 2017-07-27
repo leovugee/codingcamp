@@ -1,8 +1,4 @@
-
-$bluelight : #30a9dc;
-$bluedark : #0c72b8;
-$standard-border : 4px solid black;
-
+@import "partials/variables";
 
 
 
@@ -12,27 +8,29 @@ $standard-border : 4px solid black;
 	box-sizing: border-box;
 }
 
+body {
+		font-size: $standard-font-size;
+}
+
 p, span {
 	font-family: 'Pacifico', cursive;
 	text-align: center;
 }
 
 .css-banner {
-	background-color: $bluedark;
+	background-color: lighten($bluedark,10%);
 	height: 400px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+@include flex($align-items-val:center);
 	border: $standard-border;
 }
 
 .css-slogan {
-	display: flex;
-	background-color: $bluelight;
-	justify-content: center;
+	@include flex();
+	background-color: darken($bluelight,10%);
 	width: 50%;
 	padding: 80px;
 	border: $standard-border;
+	font-size: $standard-font-size * 2;
 }
 
 .css-title-long {
@@ -40,18 +38,16 @@ p, span {
 }
 
 .css-intro {
-	display:flex;
+	@include flex();
 	padding: 40px;
 	margin: 20px 0 40px 0;
-	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-	justify-content: center;
+	@include gradient((red, orange, yellow, green, blue, indigo, violet), 60deg);
 }
 
 .css-container {
-	display:flex;
+	@include flex($justify-content-val:space-between);
 	flex-wrap: wrap;
 	width:100%;
-	justify-content: space-around;
 }
 
 .css-logo {
@@ -60,11 +56,9 @@ p, span {
 }
 
 .css-feature {
-	display:flex;
+	@include flex(space-between,center);
 	flex-direction: column;
 	text-decoration: none;
-	justify-content: space-between;
-	align-items: center;
 	padding: 20px;
 	margin: 20px;
 	width:250px;
@@ -75,14 +69,15 @@ p, span {
 }
 
 .css-feature:hover {
-	transform: scale(1.1);
+@include prefix();
+}
+.css-feature p {
+	font-size: $standard-font-size * 1.1;
 }
 
 .css-footer {
+		@include flex($align-items-val:center);
 	background-color: $bluelight;
-	display: flex;
-	justify-content:center;
-	align-items: center;
 	height: 50px;
 	border: $standard-border;
 }
@@ -96,6 +91,4 @@ p, span {
 	}
 
 }
-
-
 
