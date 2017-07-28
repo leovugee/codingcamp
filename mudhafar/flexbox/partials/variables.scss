@@ -1,0 +1,30 @@
+
+$slogancolor : darken(#30a9dc,10%);
+$bannercolor : lighten(#0c72b8,10%);
+$standard-border : 4px solid black;
+$bodyfontsize : 16px;
+$sloganfontsize : 1.5 * $bodyfontsize;
+$featurefontsize : 1.1 * $bodyfontsize;
+
+@mixin flex($value1: flex-start, $value2: stretch) {
+  justify-content : $value1;
+  align-items : $value2;
+  display : flex;
+}
+
+@mixin prefix($property,$attr) {
+  #{$property} : $attr;
+  -webkit-#{$property} : $attr;
+  -moz-#{$property} : $attr;
+  -ms-#{$property} : $attr;
+  -o-#{$property} : $attr;
+}
+
+@mixin gradient($list,$deg) {
+  background: nth($list,1);
+  background: -webkit-linear-gradient($deg,$list);
+  background: -o-linear-gradient($deg,$list);
+  background: -moz-linear-gradient($deg,$list);
+  background: linear-gradient($deg,$list);
+}
+

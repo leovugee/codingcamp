@@ -1,15 +1,14 @@
 
-$bluelight : #30a9dc;
-$bluedark : #0c72b8;
-$standard-border : 4px solid black;
-
-
-
+@import "partials/variables";
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	font-size: $bodyfontsize;
 }
 
 p, span {
@@ -18,21 +17,19 @@ p, span {
 }
 
 .css-banner {
-	background-color: $bluedark;
+	background-color: $bannercolor;
 	height: 400px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@include flex(center,center);
 	border: $standard-border;
 }
 
 .css-slogan {
-	display: flex;
-	background-color: $bluelight;
-	justify-content: center;
+	@include flex($value1 : center);
+	background-color: $slogancolor;
 	width: 50%;
 	padding: 80px;
 	border: $standard-border;
+	font-size: $sloganfontsize;
 }
 
 .css-title-long {
@@ -40,18 +37,16 @@ p, span {
 }
 
 .css-intro {
-	display:flex;
+	@include flex($value1 : center);
 	padding: 40px;
 	margin: 20px 0 40px 0;
-	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-	justify-content: center;
+	@include gradient((red, orange, yellow, green, blue, indigo, violet),90deg);
 }
 
 .css-container {
-	display:flex;
+	@include flex($value1 : space-around);
 	flex-wrap: wrap;
 	width:100%;
-	justify-content: space-around;
 }
 
 .css-logo {
@@ -60,29 +55,25 @@ p, span {
 }
 
 .css-feature {
-	display:flex;
+	@include flex(space-between,center);
 	flex-direction: column;
 	text-decoration: none;
-	justify-content: space-between;
-	align-items: center;
 	padding: 20px;
 	margin: 20px;
 	width:250px;
 	height:300px;
 	border: $standard-border;
 	color:black;
+	font-size: $featurefontsize;
 	transition: transform .5s;
-}
-
-.css-feature:hover {
-	transform: scale(1.1);
+	&:hover {
+		@include prefix(transform,scale(1.1));
+	}
 }
 
 .css-footer {
-	background-color: $bluelight;
-	display: flex;
-	justify-content:center;
-	align-items: center;
+	background-color: $slogancolor;
+	@include flex(center,center);
 	height: 50px;
 	border: $standard-border;
 }
