@@ -1,0 +1,27 @@
+$bluelight : #30a9dc;
+$bluedark : #0c72b8;
+$standard-border : 4px solid black;
+$standard-font-size:16px;
+@mixin flex($justify-content-val:center,$align-items-val:stretch) {
+	display:flex;
+	justify-content: $justify-content-val ;
+	align-items: $align-items-val;
+
+}
+@mixin prefix($proporty:transform,$scale-value:scale(1.1)) {
+	#{$proporty}: $scale-value;
+	-webkit-#{$proporty}:$scale-value;
+	-moz-#{$proporty}:$scale-value;
+	-ms-#{$proporty}:$scale-value;
+	-o-#{$proporty}:$scale-value;
+}
+@mixin gradient($color,$degree){
+background:nth($color,1);
+background:-webkit-linear-gradient($degree,$color);
+background:-moz-linear-gradient($degree,$color);
+background:-ms-linear-gradient($degree,$color);
+background:-o-linear-gradient($degree,$color);
+}
+
+
+
